@@ -4,15 +4,15 @@ import io.circe._
 import io.circe.generic.auto._
 
 case class Country(
-    name: String,
+    name: Option[String],
     code: String,
-    capital: String,
-    continent: String,
-    population: Long,
+    capital: Option[String],
+    continent: Option[String],
+    population: Option[Long],
     area: Option[Double],
     gdp: Option[Double],
     languages: List[String],
-    currency: String
+    currency: Option[String]
 )
 
 case class TopCountry(

@@ -1,0 +1,56 @@
+{
+  "sources": {
+    "data_clean": 101,
+    "data_dirty": 500,
+    "data_large": 12120,
+    "total_avant_agregation": 12721,
+    "total_apres_agregation": 101
+  },
+  "statistiques": {
+    "population_totale": 7454000000,
+    "superficie_totale": 121029857,
+    "nombre_pays": 101
+  },
+  "top10_population": [
+    {"name": "China", "population": 1400000000},
+    {"name": "India", "population": 1380000000},
+    {"name": "United States", "population": 331000000},
+    {"name": "Indonesia", "population": 273000000},
+    {"name": "Pakistan", "population": 220000000},
+    {"name": "Brazil", "population": 212000000},
+    {"name": "Nigeria", "population": 206000000},
+    {"name": "Bangladesh", "population": 164000000},
+    {"name": "Russia", "population": 145000000},
+    {"name": "Mexico", "population": 128000000}
+  ],
+  "par_continent": [
+    {"continent": "Africa", "count": 34},
+    {"continent": "Asia", "count": 30},
+    {"continent": "Europe", "count": 19},
+    {"continent": "North America", "count": 8},
+    {"continent": "Oceania", "count": 2},
+    {"continent": "South America", "count": 8}
+  ],
+  "pays": [
+    {"name": "Haiti", "population": 11000000, "continent": "North America"},
+    {"name": "India", "population": 1380000000, "continent": "Asia"},
+    {"name": "Israel", "population": 9000000, "continent": "Asia"},
+    {"name": "Austria", "population": 9000000, "continent": "Europe"},
+    {"name": "Zimbabwe", "population": 15000000, "continent": "Africa"},
+    {"name": "Burkina Faso", "population": 21000000, "continent": "Africa"},
+    {"name": "Iraq", "population": 40000000, "continent": "Asia"},
+    {"name": "South Sudan", "population": 11000000, "continent": "Africa"},
+    {"name": "Poland", "population": 38000000, "continent": "Europe"},
+    {"name": "Jordan", "population": 10000000, "continent": "Asia"},
+    {"name": "Philippines", "population": 109000000, "continent": "Asia"},
+    {"name": "Somalia", "population": 16000000, "continent": "Africa"},
+    {"name": "Madagascar", "population": 28000000, "continent": "Africa"},
+    {"name": "Algeria", "population": 43000000, "continent": "Africa"},
+    {"name": "Angola", "population": 32000000, "continent": "Africa"},
+    {"name": "United States", "population": 331000000, "continent": "North America"},
+    {"name": "Greece", "population": 11000000, "continent": "Europe"},
+    {"name": "Venezuela", "population": 28000000, "continent": "South America"},
+    {"name": "Uzbekistan", "population": 34000000, "continent": "Asia"},
+    {"name": "Syria", "population": 17000000, "continent": "Asia"}
+  ]
+}
