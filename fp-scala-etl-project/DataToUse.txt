@@ -1,0 +1,1848 @@
+# Séance 1 - Introduction à la Programmation Fonctionnelle avec Scala
+
+## 📚 Objectifs d'apprentissage
+
+- Découvrir Scala et son écosystème
+- Comprendre l'immutabilité (`val` vs `var`)
+- Écrire des fonctions pures (sans effets de bord)
+- Maîtriser les expressions vs instructions
+- Travailler avec les types simples de Scala
+- Utiliser le pattern matching
+- Construire un mini-projet : Système d'Évaluation d'Étudiants
+
+## 🚀 Mise en route
+
+### Prérequis
+
+- Java JDK 11 ou supérieur
+- SBT (Scala Build Tool) installé
+
+### Installation
+
+1. Clonez ou téléchargez ce projet
+2. Ouvrez un terminal dans le dossier du projet
+3. Lancez SBT avec la commande :
+   ```bash
+   sbt
+   ```
+
+### Commandes utiles
+
+Dans le terminal SBT :
+
+- `compile` - Compile le code
+- `test` - Lance tous les tests
+- `testOnly seance1.ExercicesSpec` - Lance uniquement les tests des exercices
+- `console` - Ouvre le REPL Scala pour tester du code interactivement
+- `~test` - Mode watch : relance les tests automatiquement à chaque modification
+
+Ou utilisez le script fourni :
+```bash
+./verifier.sh
+```
+
+## 📝 Structure du projet
+
+```
+seance-1/
+├── src/
+│   ├── main/scala/
+│   │   └── Exercices.scala    # ⚠️ Fichier à compléter (vos solutions)
+│   └── test/scala/
+│       └── ExercicesSpec.scala # 🧪 Tests pour valider vos solutions
+├── build.sbt                   # Configuration du projet
+└── README.md                   # Ce fichier
+```
+
+## 🎯 Instructions pour les exercices
+
+### Étape 1 : Comprendre les exercices
+
+Ouvrez le fichier `src/main/scala/Exercices.scala` et lisez attentivement :
+- Les commentaires expliquant chaque exercice
+- Les signatures de fonctions (types d'entrée et de sortie)
+- Les exemples fournis
+
+### Étape 2 : Compléter les fonctions
+
+Remplacez les `???` par votre code. 
+
+**Règles importantes :**
+- ❌ N'utilisez PAS `var` (variables mutables)
+- ✅ Utilisez uniquement `val` (valeurs immutables)
+- ✅ Privilégiez les expressions pures (sans effets de bord)
+- ❌ Pas de `println` dans vos fonctions (sauf si explicitement demandé)
+- ✅ Utilisez le pattern matching quand c'est approprié
+
+### Étape 3 : Tester votre code
+
+Lancez les tests avec :
+```bash
+sbt test
+# ou
+./verifier.sh
+```
+
+Les tests vous indiqueront :
+- ✅ Les exercices réussis (en vert)
+- ❌ Les exercices à corriger (en rouge avec détails)
+
+### Étape 4 : Itérer
+
+- Corrigez les erreurs
+- Relancez les tests
+- Répétez jusqu'à ce que tous les tests passent ! 🎉
+
+## 📖 Organisation des exercices
+
+### Partie 1 : Expressions et Immutabilité (3 exercices)
+**Concepts :** `if/else` comme expression, pas de `return` nécessaire
+
+**Exercices :**
+- `max` : Maximum de deux nombres
+- `abs` : Valeur absolue
+- `signe` : Identifier si un nombre est positif, négatif ou zéro
+
+### Partie 2 : Types Simples et Typage (4 exercices)
+**Concepts :** `Int`, `Double`, `String`, `Boolean`, inférence de type
+
+**Exercices :**
+- `celsiusVersFahrenheit` : Conversion de température
+- `calculerIMC` : Calcul d'Indice de Masse Corporelle
+- `ageValide` : Validation d'âge
+- `nomComplet` : Formatage de chaînes
+
+### Partie 3 : Fonctions Pures et Récursion (3 exercices)
+**Concepts :** Récursion, fonctions pures, pas de boucles
+
+**Exercices :**
+- `factorielle` : Calcul récursif de n!
+- `puissance` : Élévation à la puissance
+- `longueurChaine` : Compter les caractères récursivement
+
+### Partie 4 : Pattern Matching Simple (3 exercices)
+**Concepts :** `match/case`, guards (conditions)
+
+**Exercices :**
+- `jourSemaine` : Convertir un nombre en nom de jour
+- `noteEnLettre` : Convertir un score en lettre (A, B, C, D, F)
+- `categorieAge` : Classifier par catégorie d'âge
+
+### Partie 5 : Types Composés - Tuples (3 exercices)
+**Concepts :** Tuples, déstructuration, pattern matching sur tuples
+
+**Exercices :**
+- `creerPersonne` : Créer un tuple (nom, age)
+- `extraireNom` : Extraire une valeur d'un tuple
+- `estMajeur` : Vérifier la majorité avec pattern matching
+
+### Partie 6 : Mini-Projet - Système d'Évaluation (7 exercices)
+**Objectif :** Construire un système complet de gestion de notes d'étudiants
+
+**Types utilisés :**
+- `Note` : Tuple (matière, score)
+- `Étudiant` : Tuple (nom, note1, note2, note3)
+
+**Exercices progressifs :**
+1. `creerEtudiant` : Créer un étudiant avec ses notes
+2. `noteValide` : Valider une note (0-100)
+3. `moyenneTroisScores` : Calculer une moyenne simple
+4. `moyenneEtudiant` : Extraire et calculer la moyenne d'un étudiant
+5. `mentionEtudiant` : Déterminer la mention selon la moyenne
+6. `rapportEtudiant` : Générer un rapport complet (composition de fonctions)
+7. `meilleurEtudiant` : Comparer deux étudiants
+
+### BONUS : Exercices Avancés (3 exercices optionnels)
+Pour aller plus loin :
+- `fibonacci` : Suite de Fibonacci
+- `estPalindrome` : Vérifier les palindromes
+- `pgcd` : Plus Grand Commun Diviseur (algorithme d'Euclide)
+
+---
+
+## 💡 Astuces
+
+### Utiliser le REPL
+Le REPL (Read-Eval-Print Loop) est excellent pour tester des idées :
+```bash
+sbt console
+```
+
+Puis testez vos expressions :
+```scala
+scala> val x = 5
+scala> val y = 3
+scala> if (x > y) x else y
+// res0: Int = 5
+
+scala> def max(a: Int, b: Int) = if (a > b) a else b
+scala> max(10, 20)
+// res1: Int = 20
+```
+
+### Syntaxes Importantes
+
+**Expression if/else :**
+```scala
+// ❌ Style impératif (à éviter)
+var result = 0
+if (x > 0) {
+  result = x
+} else {
+  result = -x
+}
+
+// ✅ Style fonctionnel (expression)
+val result = if (x > 0) x else -x
+```
+
+**Pattern Matching :**
+```scala
+// Sur valeur
+jour match {
+  case 1 => "Lundi"
+  case 2 => "Mardi"
+  case _ => "Autre"
+}
+
+// Avec guards (conditions)
+score match {
+  case s if s >= 90 => "A"
+  case s if s >= 80 => "B"
+  case _ => "F"
+}
+
+// Sur tuple (déstructuration)
+personne match {
+  case (nom, age) => s"$nom a $age ans"
+}
+```
+
+**Tuples :**
+```scala
+// Création
+val personne = ("Alice", 25)
+val point = (10, 20)
+
+// Accès
+personne._1  // "Alice"
+personne._2  // 25
+
+// Déstructuration
+val (nom, age) = personne
+```
+
+**Récursion :**
+```scala
+def factorielle(n: Int): Int = {
+  if (n <= 0) 1              // Cas de base
+  else n * factorielle(n-1)  // Cas récursif
+}
+```
+
+**Interpolation de chaînes :**
+```scala
+val nom = "Alice"
+val age = 25
+s"$nom a $age ans"           // "Alice a 25 ans"
+s"Dans 5 ans: ${age + 5}"    // "Dans 5 ans: 30"
+```
+
+### Concepts Clés
+
+#### Immutabilité
+```scala
+val x = 5      // ✅ Immutable - TOUJOURS préféré
+var y = 5      // ❌ Mutable - À ÉVITER
+
+// x = 6       // Erreur de compilation !
+y = 6          // OK mais non fonctionnel
+```
+
+#### Fonctions Pures
+Une fonction pure :
+- Retourne toujours le même résultat pour les mêmes paramètres
+- N'a pas d'effets de bord (pas de modification d'état, pas d'I/O)
+- Est prévisible et testable
+
+```scala
+// ✅ Fonction pure
+def add(a: Int, b: Int): Int = a + b
+
+// ❌ Fonction impure (effet de bord)
+def addAndPrint(a: Int, b: Int): Int = {
+  val result = a + b
+  println(result)  // Effet de bord !
+  result
+}
+```
+
+#### Expressions vs Instructions
+En Scala, tout est une expression qui retourne une valeur :
+
+```scala
+// if/else est une expression
+val max = if (a > b) a else b
+
+// match est une expression
+val jour = n match {
+  case 1 => "Lundi"
+  case 2 => "Mardi"
+  case _ => "Autre"
+}
+
+// Même un bloc { } est une expression
+val result = {
+  val x = 10
+  val y = 20
+  x + y  // Dernière ligne = valeur retournée
+}
+```
+
+## 🎓 Progression Suggérée
+
+### Pour Débutants (2-3h)
+1. Partie 1 (Expressions)
+2. Partie 2 (Types simples)
+3. Partie 3 (Récursion simple : factorielle, puissance)
+4. Partie 4 (Pattern matching)
+
+### Pour Niveau Intermédiaire (3-4h)
+Tout ce qui précède, plus :
+- Partie 5 (Tuples)
+- Partie 6 (Mini-projet exercices 6.1 à 6.4)
+
+### Pour Niveau Avancé (4-5h)
+Tout, y compris :
+- Partie 6 complète (Mini-projet)
+- Exercices BONUS
+
+## 📊 Validation
+
+Votre objectif : **faire passer tous les tests** ! 
+
+Lorsque vous verrez ceci, vous aurez réussi :
+```
+[info] ExercicesSpec:
+[info] - 1.1 - max: retourne le plus grand de deux nombres ✓
+[info] - 1.2 - abs: retourne la valeur absolue ✓
+[info] ... (tous les tests) ✓
+[info] All tests passed
+```
+
+## 🎯 Le Mini-Projet : Système d'Évaluation
+
+Le point culminant de cette séance est la **Partie 6**, où vous construirez progressivement un système de gestion de notes.
+
+### Architecture
+
+```
+Note = (String, Int)
+  ↓
+Étudiant = (String, Note, Note, Note)
+  ↓
+Fonctions:
+  - Créer un étudiant
+  - Valider les notes
+  - Calculer moyennes
+  - Déterminer mentions
+  - Générer rapports
+  - Comparer étudiants
+```
+
+### Exemple d'Utilisation
+
+```scala
+// Créer un étudiant
+val alice = creerEtudiant(
+  "Alice",
+  ("Math", 85),
+  ("Physique", 90),
+  ("Chimie", 88)
+)
+
+// Calculer sa moyenne
+val moyenne = moyenneEtudiant(alice)  // 87.67
+
+// Déterminer sa mention
+val mention = mentionEtudiant(moyenne)  // "Bien"
+
+// Générer un rapport
+val rapport = rapportEtudiant(alice)
+// "Nom: Alice, Moyenne: 87.67, Mention: Bien"
+```
+
+Ce mini-projet démontre :
+- ✅ Composition de fonctions
+- ✅ Utilisation de types personnalisés (tuples)
+- ✅ Pattern matching pour extraire des données
+- ✅ Fonctions pures qui se construisent les unes sur les autres
+- ✅ Immutabilité totale
+
+## 🤝 Besoin d'aide ?
+
+- Relisez les commentaires dans `Exercices.scala`
+- Consultez les exemples dans la section "Astuces"
+- Utilisez le REPL pour expérimenter : `sbt console`
+- Lisez les messages d'erreur attentivement
+- N'hésitez pas à demander de l'aide à votre enseignant
+
+### Erreurs Courantes
+
+**"not found: value ???"**
+→ Vous n'avez pas encore remplacé le `???` par votre code
+
+**"type mismatch"**
+→ Vérifiez que votre fonction retourne le bon type
+
+**"missing parameter type"**
+→ Scala a besoin de connaître les types des paramètres
+
+**"recursive method needs result type"**
+→ Les fonctions récursives ont besoin d'une annotation de type explicite
+
+## 📚 Ressources
+
+- [Documentation officielle Scala 3](https://docs.scala-lang.org/scala3/)
+- [Tour de Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)
+- [Scala Exercises](https://www.scala-exercises.org/)
+
+## 🎉 Bon courage !
+
+Amusez-vous bien avec Scala et la programmation fonctionnelle ! 🚀
+
+---
+
+*Ce projet a été créé pour la Séance 1 du cours de Programmation Fonctionnelle avec Scala.*
+
+
+# Séance 2 - Collections immuables et Fonctions d'Ordre Supérieur
+
+## 📚 Objectifs d'apprentissage
+
+- Manipuler les collections immuables (List, Map, Set)
+- Maîtriser les fonctions d'ordre supérieur : map, flatMap, filter, fold, reduce, groupBy
+- Comprendre la composition de fonctions
+- Utiliser les fonctions anonymes et la curryification
+- Construire un mini-projet : Système de Gestion de Bibliothèque
+
+## 🚀 Mise en route
+
+### Prérequis
+
+- Java JDK 11 ou supérieur
+- SBT (Scala Build Tool) installé
+- Avoir complété la Séance 1 (recommandé)
+
+### Installation
+
+1. Clonez ou téléchargez ce projet
+2. Ouvrez un terminal dans le dossier du projet
+3. Lancez SBT avec la commande :
+   ```bash
+   sbt
+   ```
+
+### Commandes utiles
+
+Dans le terminal SBT :
+
+- `compile` - Compile le code
+- `test` - Lance tous les tests
+- `testOnly seance2.ExercicesSpec` - Lance uniquement les tests des exercices
+- `console` - Ouvre le REPL Scala pour tester du code interactivement
+- `~test` - Mode watch : relance les tests automatiquement à chaque modification
+
+Ou utilisez le script fourni :
+```bash
+./verifier.sh
+```
+
+## 📝 Structure du projet
+
+```
+seance-2/
+├── src/
+│   ├── main/scala/
+│   │   └── Exercices.scala    # ⚠️ Fichier à compléter (vos solutions)
+│   └── test/scala/
+│       └── ExercicesSpec.scala # 🧪 Tests pour valider vos solutions
+├── build.sbt                   # Configuration du projet
+└── README.md                   # Ce fichier
+```
+
+## 🎯 Instructions pour les exercices
+
+### Étape 1 : Comprendre les exercices
+
+Ouvrez le fichier `src/main/scala/Exercices.scala` et lisez attentivement :
+- Les commentaires expliquant chaque exercice
+- Les signatures de fonctions (types d'entrée et de sortie)
+- Les exemples fournis
+
+### Étape 2 : Compléter les fonctions
+
+Remplacez les `???` par votre code. 
+
+**Règles importantes :**
+- ❌ N'utilisez PAS `var` (variables mutables)
+- ✅ Utilisez uniquement `val` (valeurs immutables)
+- ✅ Privilégiez les fonctions pures (sans effets de bord)
+- ❌ Pas de `println` dans vos fonctions (sauf si explicitement demandé)
+- ✅ Utilisez les fonctions d'ordre supérieur (map, filter, etc.)
+
+### Étape 3 : Tester votre code
+
+Lancez les tests avec :
+```bash
+sbt test
+# ou
+./verifier.sh
+```
+
+Les tests vous indiqueront :
+- ✅ Les exercices réussis (en vert)
+- ❌ Les exercices à corriger (en rouge avec détails)
+
+### Étape 4 : Itérer
+
+- Corrigez les erreurs
+- Relancez les tests
+- Répétez jusqu'à ce que tous les tests passent ! 🎉
+
+## 📖 Organisation des exercices
+
+### Partie 1 : Collections de Base - List (4 exercices)
+**Concepts :** Création, taille, head, contains
+
+**Exercices :**
+- `creerListe` : Créer une liste
+- `tailleListe` : Obtenir la taille
+- `premierElement` : Premier élément avec Option
+- `contient` : Vérifier la présence d'un élément
+
+### Partie 2 : map et filter (4 exercices)
+**Concepts :** Transformation, filtrage, composition
+
+**Exercices :**
+- `doubler` : Transformer avec map
+- `nombresEnChaines` : Conversion de types
+- `filtrerPairs` : Filtrage
+- `doublerPairs` : Composition map + filter
+
+### Partie 3 : flatMap et for-comprehensions (3 exercices)
+**Concepts :** Aplatissement, cartesian product
+
+**Exercices :**
+- `aplatir` : Flatten une liste de listes
+- `dupliquer` : flatMap pour dupliquer
+- `genererPaires` : for-comprehension
+
+### Partie 4 : fold et reduce (4 exercices)
+**Concepts :** Agrégation, réduction
+
+**Exercices :**
+- `somme` : Somme avec foldLeft
+- `produit` : Produit avec foldLeft
+- `concatener` : Concaténation avec foldLeft
+- `maximum` : Maximum avec reduceOption
+
+### Partie 5 : Opérations avancées (4 exercices)
+**Concepts :** groupBy, sortBy, distinct
+
+**Exercices :**
+- `grouperParParite` : Groupement
+- `compterOccurrences` : Comptage avec groupBy
+- `trierParLongueur` : Tri personnalisé
+- `eliminerDoublons` : Dédoublonnage
+
+### Partie 6 : Mini-Projet - Système de Gestion de Bibliothèque (10 exercices)
+**Objectif :** Construire un système complet de gestion de bibliothèque
+
+**Types utilisés :**
+- `Livre` : Tuple (titre, auteur, année, catégorie)
+- `Emprunt` : Tuple (titre, emprunteur, estRendu)
+
+**Exercices progressifs :**
+1. `creerLivre` : Créer un livre
+2. `extraireTitres` : Extraire les titres
+3. `filtrerParCategorie` : Filtrer par catégorie
+4. `filtrerParAuteur` : Filtrer par auteur
+5. `livresRecents` : Filtrer par année
+6. `compterParCategorie` : Statistiques par catégorie
+7. `grouperParAuteur` : Grouper par auteur
+8. `livresNonRendus` : Gérer les emprunts
+9. `livresParEmprunteur` : Historique d'emprunts
+10. `statistiquesBibliotheque` : Statistiques globales
+
+### BONUS : Exercices Avancés (3 exercices optionnels)
+Pour aller plus loin :
+- `rechercherLivres` : Recherche multi-critères
+- `recommander` : Système de recommandation
+- `emprunteurLePlusActif` : Analyse des emprunts
+
+---
+
+## 💡 Astuces
+
+### Utiliser le REPL
+Le REPL (Read-Eval-Print Loop) est excellent pour tester des idées :
+```bash
+sbt console
+```
+
+Puis testez vos expressions :
+```scala
+scala> val liste = List(1, 2, 3, 4, 5)
+scala> liste.map(_ * 2)
+// res0: List[Int] = List(2, 4, 6, 8, 10)
+
+scala> liste.filter(_ % 2 == 0)
+// res1: List[Int] = List(2, 4)
+
+scala> liste.map(_ * 2).filter(_ > 5)
+// res2: List[Int] = List(6, 8, 10)
+```
+
+### Syntaxes Importantes
+
+**map - Transformation :**
+```scala
+val nombres = List(1, 2, 3)
+nombres.map(x => x * 2)           // List(2, 4, 6)
+nombres.map(_ * 2)                 // Syntaxe courte
+nombres.map(_.toString)            // List("1", "2", "3")
+```
+
+**filter - Filtrage :**
+```scala
+val nombres = List(1, 2, 3, 4, 5)
+nombres.filter(x => x % 2 == 0)   // List(2, 4)
+nombres.filter(_ > 2)              // List(3, 4, 5)
+```
+
+**flatMap - Aplatissement :**
+```scala
+val listes = List(List(1, 2), List(3, 4))
+listes.flatten                     // List(1, 2, 3, 4)
+
+val nombres = List(1, 2, 3)
+nombres.flatMap(x => List(x, x))   // List(1, 1, 2, 2, 3, 3)
+```
+
+**for-comprehension :**
+```scala
+// Équivalent à flatMap + map
+for {
+  i <- List(1, 2, 3)
+  j <- List("a", "b")
+} yield (i, j)
+// List((1, "a"), (1, "b"), (2, "a"), (2, "b"), (3, "a"), (3, "b"))
+```
+
+**foldLeft - Agrégation :**
+```scala
+val nombres = List(1, 2, 3, 4)
+nombres.foldLeft(0)(_ + _)         // 10 (somme)
+nombres.foldLeft(1)(_ * _)         // 24 (produit)
+
+// Forme explicite :
+nombres.foldLeft(0)((acc, x) => acc + x)
+```
+
+**groupBy - Groupement :**
+```scala
+val nombres = List(1, 2, 3, 4, 5)
+nombres.groupBy(_ % 2 == 0)
+// Map(false -> List(1, 3, 5), true -> List(2, 4))
+
+val mots = List("a", "ab", "abc", "abcd")
+mots.groupBy(_.length)
+// Map(1 -> List("a"), 2 -> List("ab"), 3 -> List("abc"), 4 -> List("abcd"))
+```
+
+### Concepts Clés
+
+#### Fonctions d'Ordre Supérieur
+Une fonction d'ordre supérieur est une fonction qui :
+- Prend une ou plusieurs fonctions en paramètre
+- Retourne une fonction
+
+```scala
+// map est une fonction d'ordre supérieur
+def map[A, B](liste: List[A], f: A => B): List[B]
+
+// Exemple d'utilisation
+val double = (x: Int) => x * 2
+List(1, 2, 3).map(double)  // List(2, 4, 6)
+```
+
+#### Fonctions Anonymes
+```scala
+// Forme complète
+List(1, 2, 3).map(x => x * 2)
+
+// Forme courte avec underscore
+List(1, 2, 3).map(_ * 2)
+
+// Avec plusieurs paramètres
+List(1, 2, 3).foldLeft(0)((acc, x) => acc + x)
+List(1, 2, 3).foldLeft(0)(_ + _)
+```
+
+#### Composition de Fonctions
+```scala
+val nombres = List(1, 2, 3, 4, 5, 6)
+
+// Chaînage d'opérations
+nombres
+  .filter(_ % 2 == 0)    // List(2, 4, 6)
+  .map(_ * 3)            // List(6, 12, 18)
+  .map(_.toString)       // List("6", "12", "18")
+```
+
+#### Option pour gérer l'absence de valeur
+```scala
+val liste = List(1, 2, 3)
+liste.headOption           // Some(1)
+
+val vide = List()
+vide.headOption            // None
+
+// Pattern matching sur Option
+liste.headOption match {
+  case Some(x) => s"Premier: $x"
+  case None => "Liste vide"
+}
+```
+
+#### Immutabilité des Collections
+```scala
+val liste = List(1, 2, 3)
+val nouvelle = liste.map(_ * 2)  // Nouvelle liste : List(2, 4, 6)
+// liste reste inchangée : List(1, 2, 3)
+```
+
+## 🎓 Progression Suggérée
+
+### Pour Débutants (2-3h)
+1. Partie 1 (Collections de base)
+2. Partie 2 (map et filter)
+3. Partie 4 (fold et reduce - exercices simples)
+
+### Pour Niveau Intermédiaire (3-4h)
+Tout ce qui précède, plus :
+- Partie 3 (flatMap)
+- Partie 5 (Opérations avancées)
+- Partie 6 (Mini-projet exercices 6.1 à 6.6)
+
+### Pour Niveau Avancé (4-5h)
+Tout, y compris :
+- Partie 6 complète (Mini-projet)
+- Exercices BONUS
+
+## 📊 Validation
+
+Votre objectif : **faire passer tous les tests** ! 
+
+Lorsque vous verrez ceci, vous aurez réussi :
+```
+[info] ExercicesSpec:
+[info] - 1.1 - creerListe: crée une liste de 1 à 5 ✓
+[info] - 1.2 - tailleListe: retourne la taille d'une liste ✓
+[info] ... (tous les tests) ✓
+[info] All tests passed
+```
+
+## 🎯 Le Mini-Projet : Système de Gestion de Bibliothèque
+
+Le point culminant de cette séance est la **Partie 6**, où vous construirez progressivement un système de gestion de bibliothèque.
+
+### Architecture
+
+```
+Livre = (String, String, Int, String)
+  ↓
+Emprunt = (String, String, Boolean)
+  ↓
+Fonctions:
+  - Créer et gérer des livres
+  - Filtrer par catégorie, auteur, année
+  - Calculer des statistiques
+  - Gérer les emprunts
+  - Recommander des livres
+```
+
+### Exemple d'Utilisation
+
+```scala
+// Créer une bibliothèque
+val livres = List(
+  ("1984", "George Orwell", 1949, "Fiction"),
+  ("Sapiens", "Yuval Harari", 2011, "Histoire"),
+  ("Dune", "Frank Herbert", 1965, "Science-Fiction")
+)
+
+// Filtrer par catégorie
+val fiction = filtrerParCategorie(livres, "Fiction")
+
+// Compter par catégorie
+val stats = compterParCategorie(livres)
+// Map("Fiction" -> 1, "Histoire" -> 1, "Science-Fiction" -> 1)
+
+// Livres récents
+val recents = livresRecents(livres, 2000)
+// List(("Sapiens", "Yuval Harari", 2011, "Histoire"))
+```
+
+Ce mini-projet démontre :
+- ✅ Manipulation intensive de collections
+- ✅ Utilisation de map, filter, groupBy
+- ✅ Composition de fonctions
+- ✅ Pattern matching sur tuples
+- ✅ Gestion de l'Option
+- ✅ Immutabilité totale
+
+## 🤝 Besoin d'aide ?
+
+- Relisez les commentaires dans `Exercices.scala`
+- Consultez les exemples dans la section "Astuces"
+- Utilisez le REPL pour expérimenter : `sbt console`
+- Lisez les messages d'erreur attentivement
+- N'hésitez pas à demander de l'aide à votre enseignant
+
+### Erreurs Courantes
+
+**"not found: value ???"**
+→ Vous n'avez pas encore remplacé le `???` par votre code
+
+**"value map is not a member of..."**
+→ Vérifiez que vous travaillez bien avec une collection (List, etc.)
+
+**"missing parameter type"**
+→ Parfois Scala a besoin du type explicite : `(x: Int) => x * 2`
+
+**"type mismatch"**
+→ Vérifiez que votre fonction retourne le bon type
+
+**"reduceLeftOption on empty: List"**
+→ Utilisez `reduceOption` ou `foldLeft` avec une valeur initiale
+
+## 📚 Ressources
+
+- [Documentation officielle Scala 3](https://docs.scala-lang.org/scala3/)
+- [Collections Scala](https://docs.scala-lang.org/overviews/collections-2.13/introduction.html)
+- [Tour de Scala - Collections](https://docs.scala-lang.org/tour/unified-types.html)
+- [Scala Exercises](https://www.scala-exercises.org/)
+
+## 🎉 Bon courage !
+
+Amusez-vous bien avec les collections et les fonctions d'ordre supérieur ! 🚀
+
+---
+
+*Ce projet a été créé pour la Séance 2 du cours de Programmation Fonctionnelle avec Scala.*
+
+
+# Séance 3 : Gestion des erreurs et types fonctionnels
+
+## 🎯 Objectifs
+
+Dans cette séance, vous allez apprendre à :
+- Gérer les erreurs de manière fonctionnelle
+- Utiliser `Option[T]`, `Try[T]`, et `Either[L, R]`
+- Composer des opérations avec map/flatMap
+- Implémenter un système de validation robuste
+
+## 📚 Contenu
+
+### Partie 1 : Motivation (10-15 min)
+Pourquoi éviter `null` et les exceptions ?
+
+### Partie 2 : Option[T] (30-40 min)
+Représenter l'absence de valeur : `Some` / `None`
+- **7 exercices**
+
+### Partie 3 : Try[T] (25-30 min)
+Gérer les exceptions de manière fonctionnelle : `Success` / `Failure`
+- **6 exercices**
+
+### Partie 4 : Either[L, R] (25-30 min)
+Gérer les erreurs avec des messages explicites : `Left` / `Right`
+- **5 exercices**
+
+### Partie 5 : Mini-Projet (50-60 min)
+**Système de gestion de commandes en ligne**
+- Validation multi-niveaux
+- Parsing de données
+- Statistiques
+- **8 exercices + 3 BONUS**
+
+## 🚀 Démarrage rapide
+
+### 1. Compiler le projet
+
+```bash
+sbt compile
+```
+
+### 2. Lancer les tests
+
+```bash
+# Tester vos solutions
+sbt test
+
+# Ou spécifiquement
+sbt "testOnly seance3.ExercicesSpec"
+```
+
+### 3. Utiliser le REPL
+
+```bash
+sbt console
+```
+
+### 4. Vérification rapide
+
+```bash
+./verifier.sh
+```
+
+## 📝 Exercices
+
+Complétez les fonctions dans `src/main/scala/Exercices.scala`.
+
+**Total : 33 exercices** répartis en 6 parties.
+
+### Comment travailler ?
+
+1. **Lisez** les commentaires dans `Exercices.scala`
+2. **Remplacez** les `???` par votre implémentation
+3. **Testez** avec `sbt test`
+4. **Itérez** jusqu'à ce que tous les tests passent
+
+## 💡 Concepts clés
+
+### Option[T]
+```scala
+val some: Option[Int] = Some(42)
+val none: Option[Int] = None
+
+// Transformation
+some.map(_ * 2)              // Some(84)
+some.getOrElse(0)            // 42
+none.getOrElse(0)            // 0
+```
+
+### Try[T]
+```scala
+import scala.util.Try
+
+val success: Try[Int] = Try("42".toInt)   // Success(42)
+val failure: Try[Int] = Try("abc".toInt)  // Failure(...)
+
+// Récupération
+failure.recover { case _ => 0 }  // Success(0)
+```
+
+### Either[L, R]
+```scala
+val right: Either[String, Int] = Right(42)
+val left: Either[String, Int] = Left("Error")
+
+// Transformation
+right.map(_ * 2)  // Right(84)
+left.map(_ * 2)   // Left("Error")
+```
+
+## ⏱️ Timing suggéré
+
+- Partie 2 (Option) : 35-45 min
+- Partie 3 (Try) : 30-35 min
+- Partie 4 (Either) : 30-35 min
+- Partie 5 (Mini-Projet) : 50-60 min
+
+**Total : 2h30-3h**
+
+## 🎯 Mini-Projet
+
+Le mini-projet simule un système de e-commerce avec :
+
+### Modèles
+- **Product** : id, nom, prix, stock
+- **Customer** : id, nom, email, limite de crédit
+- **Order** : client + items (produit + quantité)
+
+### Règles métier
+✓ Vérifier l'existence du client  
+✓ Vérifier la disponibilité des produits  
+✓ Contrôler le stock  
+✓ Respecter la limite de crédit  
+
+### Fonctionnalités
+- Validation complète des commandes
+- Parsing de données textuelles
+- Statistiques (revenu, meilleur client, top produits)
+
+## ✅ Critères de réussite
+
+À la fin de la séance, vous devez :
+
+✓ Comprendre les problèmes de null et des exceptions  
+✓ Maîtriser Option, Try, Either  
+✓ Utiliser map/flatMap pour composer  
+✓ Implémenter un système de validation robuste  
+✓ Composer des opérations pouvant échouer  
+
+## 📖 Ressources
+
+- [Documentation Scala - Option](https://www.scala-lang.org/api/current/scala/Option.html)
+- [Documentation Scala - Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
+- [Documentation Scala - Either](https://www.scala-lang.org/api/current/scala/util/Either.html)
+
+## 💬 Aide
+
+Si vous êtes bloqué :
+
+1. **Lisez les types** : Ils vous guident vers la solution
+2. **Testez dans le REPL** : `sbt console`
+3. **Lisez les messages d'erreur** : Ils sont informatifs
+4. **Maîtrisez map/flatMap** : Essentiels pour composer les opérations
+5. **Demandez de l'aide** : À votre enseignant ou vos camarades
+
+## 🚧 Erreurs courantes
+
+❌ Utiliser `.get` sans vérification  
+❌ Oublier `flatMap` (créer `Option[Option[T]]`)  
+❌ Confondre `map` et `flatMap`  
+
+✅ Toujours utiliser `getOrElse` ou pattern matching  
+✅ Utiliser `flatMap` pour composer  
+✅ Garder les types cohérents  
+
+---
+
+**Bon courage ! 🎓**
+
+
+# Séance 4 : For-comprehension et consolidation
+
+## 🎯 Objectifs
+
+Dans cette séance, vous allez :
+- Apprendre la **for-comprehension** : syntaxe élégante pour composer des opérations
+- **Réviser et consolider** tous les concepts des séances précédentes
+- **Synthétiser** vos acquis dans un mini-projet
+
+## 📚 Contenu
+
+### Partie 1 : For-comprehension (35-45 min)
+Introduction à la syntaxe for-comprehension comme alternative élégante à map/flatMap
+- **8 exercices**
+
+### Partie 2 : Révision HOFs (30-35 min)
+Révision des Higher-Order Functions (map, filter, flatMap, fold, groupBy)
+- **5 exercices**
+
+### Partie 3 : Révision Option/Try/Either (30-35 min)
+Composition de types fonctionnels avec for-comprehension
+- **6 exercices**
+
+### Partie 4 : Mini-Projet - Gestionnaire de tâches (45-55 min)
+**Projet de synthèse** : un gestionnaire de tâches (TODO list) qui combine tous les concepts
+- **11 exercices + BONUS**
+
+## ⚡ For-comprehension en bref
+
+### C'est quoi ?
+
+La for-comprehension est du **sucre syntaxique** pour simplifier l'écriture de map/flatMap imbriqués.
+
+```scala
+// Avec flatMap/map (séance 3)
+a.flatMap(x => b.map(y => x + y))
+
+// Avec for-comprehension (séance 4) - équivalent !
+for {
+  x <- a
+  y <- b
+} yield x + y
+```
+
+### Pourquoi c'est utile ?
+
+```scala
+// Version imbriquée (difficile à lire)
+a.flatMap(x => 
+  b.flatMap(y => 
+    c.map(z => 
+      x + y + z
+    )
+  )
+)
+
+// Version for-comprehension (clair et lisible)
+for {
+  x <- a
+  y <- b
+  z <- c
+} yield x + y + z
+```
+
+### Syntaxe de base
+
+```scala
+// 1. Avec Option
+for {
+  x <- Some(5)
+  y <- Some(10)
+} yield x + y
+// Some(15)
+
+// 2. Avec Either
+for {
+  name <- validateName("Alice")
+  email <- validateEmail("alice@ex.com")
+} yield User(name, email)
+// Right(User(...))
+
+// 3. Avec Try
+for {
+  a <- Try("5".toInt)
+  b <- Try("10".toInt)
+} yield a + b
+// Success(15)
+
+// 4. Avec valeurs intermédiaires
+for {
+  price <- Some(100.0)
+  discount <- Some(0.2)
+  discountAmount = price * discount  // = au lieu de <-
+  finalPrice = price - discountAmount
+} yield finalPrice
+// Some(80.0)
+```
+
+## 📦 Modèles de données
+
+Le mini-projet utilise ce modèle :
+
+```scala
+case class Task(
+  id: Int,
+  title: String,
+  completed: Boolean,
+  priority: Int  // 1 = haute, 2 = moyenne, 3 = basse
+)
+```
+
+## ⏱️ Timing suggéré
+
+- Partie 1 (For-comprehension) : 35-45 min
+- Partie 2 (Révision HOFs) : 30-35 min
+- Partie 3 (Révision Option/Try/Either) : 30-35 min
+- Partie 4 (Mini-Projet) : 45-55 min
+
+**Total : 2h30-3h**
+
+## ✅ Critères de réussite
+
+À la fin de la séance, vous devez :
+
+✓ Comprendre ce qu'est une for-comprehension  
+✓ Savoir la traduire en map/flatMap  
+✓ Maîtriser les HOFs (révision)  
+✓ Composer Option/Try/Either avec élégance  
+✓ Synthétiser tous les concepts dans le mini-projet  
+
+## 💬 Aide
+
+Si vous êtes bloqué :
+
+1. **Pour for-comprehension** : Écrivez d'abord avec map/flatMap, puis convertissez
+2. **Pour les HOFs** : Relisez la Séance 2
+3. **Pour Option/Try/Either** : Relisez la Séance 3
+4. **Testez dans le REPL** : `sbt console`
+5. **Demandez de l'aide** : À votre enseignant ou vos camarades
+
+## 🚧 Erreurs courantes
+
+❌ Confondre `<-` et `=` dans for-comprehension  
+❌ Oublier le `yield` à la fin  
+❌ Mélanger des types incompatibles (Option avec Either, etc.)  
+❌ Penser que for-comprehension est une boucle (c'est pas le cas !)  
+
+✅ `<-` pour extraire une valeur, `=` pour une valeur intermédiaire  
+✅ Toujours finir par `yield` pour retourner une valeur  
+✅ Garder le même type dans toute la for-comprehension  
+✅ C'est du sucre syntaxique pour map/flatMap  
+
+---
+
+**Bon courage ! Cette séance consolide tout ce que vous avez appris ! 🎓**
+
+
+# 📝 Séance 5 : Parsing JSON avec Circe
+
+## 🎯 Objectifs
+
+Cette séance vous permet de :
+- Apprendre à parser du JSON avec la bibliothèque **Circe**
+- Créer des **case classes** appropriées pour modéliser des données
+- Gérer les **erreurs de parsing** avec `Either` et `Try`
+- **Lire** et **écrire** des fichiers JSON
+- Créer des **pipelines ETL** simples (Extract-Transform-Load)
+
+## 📚 Contenu
+
+La séance contient **20 exercices** répartis en 6 parties :
+
+### Partie 1 : Parsing JSON basique (3 exercices)
+- Parser un objet simple
+- Parser des objets avec champs optionnels (`Option`)
+- Parser des listes d'objets
+
+### Partie 2 : Gestion des erreurs (3 exercices)
+- Utiliser `Try` pour capturer les exceptions
+- Parser ET valider les données
+- Parser plusieurs objets et compter les erreurs
+
+### Partie 3 : Lecture de fichiers (3 exercices)
+- Lire un fichier JSON et le parser
+- Lire des listes depuis des fichiers
+- Compter les objets valides
+
+### Partie 4 : Écriture de fichiers (4 exercices)
+- Convertir des objets en JSON
+- Convertir des listes en JSON
+- Écrire du JSON dans des fichiers
+
+### Partie 5 : Pipelines ETL (3 exercices)
+- Lire → Transformer → Écrire
+- Filtrer des données
+- Agréger et exporter des statistiques
+
+### Partie 6 : Validation et nettoyage (4 exercices)
+- Valider et filtrer des données
+- Nettoyer des fichiers
+- Générer des rapports de traitement
+
+## 🚀 Démarrage rapide
+
+### 1. Compiler le projet
+
+```bash
+sbt compile
+```
+
+### 2. Lancer les tests
+
+```bash
+sbt test
+```
+
+Les tests des `Exercices` vont échouer car vous devez les implémenter ! 
+Les tests des `Solutions` passent tous.
+
+### 3. Mode watch (recompile automatiquement)
+
+```bash
+sbt ~test
+```
+
+## 📖 Circe - Guide rapide
+
+### Imports nécessaires
+
+```scala
+import io.circe._
+import io.circe.generic.auto._  // Dérivation automatique
+import io.circe.parser._         // Fonctions de parsing
+import io.circe.syntax._         // Conversion vers JSON
+```
+
+### Parser du JSON
+
+```scala
+import io.circe.parser.decode
+import io.circe.generic.auto._
+
+case class Person(name: String, age: Int)
+
+// Parser une chaîne JSON
+val json = """{"name":"Alice","age":25}"""
+val result: Either[Error, Person] = decode[Person](json)
+
+result match {
+  case Right(person) => println(s"Succès : $person")
+  case Left(error) => println(s"Erreur : ${error.getMessage}")
+}
+```
+
+### Générer du JSON
+
+```scala
+import io.circe.syntax._
+import io.circe.generic.auto._
+
+case class Person(name: String, age: Int)
+
+val person = Person("Alice", 25)
+val json: String = person.asJson.spaces2  // Avec indentation
+println(json)
+// {
+//   "name" : "Alice",
+//   "age" : 25
+// }
+```
+
+### Champs optionnels
+
+```scala
+case class User(
+  name: String,
+  age: Option[Int]  // Peut être absent dans le JSON
+)
+
+// JSON avec age
+val json1 = """{"name":"Alice","age":25}"""
+decode[User](json1)  // Right(User("Alice", Some(25)))
+
+// JSON sans age
+val json2 = """{"name":"Bob"}"""
+decode[User](json2)  // Right(User("Bob", None))
+```
+
+### Lire un fichier JSON
+
+```scala
+import scala.io.Source
+import scala.util.Try
+
+def readJsonFile(filename: String): Either[String, Person] = {
+  Try {
+    val source = Source.fromFile(filename)
+    val content = source.mkString
+    source.close()
+    content
+  } match {
+    case Success(content) =>
+      decode[Person](content) match {
+        case Right(person) => Right(person)
+        case Left(error) => Left(s"Parsing error: ${error.getMessage}")
+      }
+    case Failure(exception) =>
+      Left(s"File error: ${exception.getMessage}")
+  }
+}
+```
+
+### Écrire un fichier JSON
+
+```scala
+import java.nio.file.{Files, Paths}
+import java.nio.charset.StandardCharsets
+
+def writeJsonFile(person: Person, filename: String): Either[String, Unit] = {
+  Try {
+    val json = person.asJson.spaces2
+    Files.write(Paths.get(filename), json.getBytes(StandardCharsets.UTF_8))
+  } match {
+    case Success(_) => Right(())
+    case Failure(exception) => Left(s"Write error: ${exception.getMessage}")
+  }
+}
+```
+
+## 💡 Conseils
+
+1. **Commencez par les exercices simples** (Partie 1) pour comprendre Circe
+2. **Testez chaque fonction** au fur et à mesure
+3. **Lisez les messages d'erreur** de Circe, ils sont très informatifs
+4. **Utilisez le mode watch** (`sbt ~test`) pour voir les tests passer en temps réel
+5. **N'oubliez pas les imports** ! Circe nécessite plusieurs imports
+
+## 🎓 Préparation au projet final
+
+Cette séance vous prépare directement au **projet final** où vous devrez :
+- Parser des fichiers JSON réels (pays, joueurs de foot, films, etc.)
+- Gérer des données bruitées (erreurs, champs manquants)
+- Transformer et agréger des données
+- Exporter des résultats en JSON
+
+Les compétences que vous apprenez ici sont **essentielles** pour réussir le projet !
+
+## 📊 Progression
+
+Voici combien d'exercices vous devez compléter :
+
+- ✅ **Minimum** : 15/20 exercices (Parties 1-4)
+- 🎯 **Objectif** : 18/20 exercices (+ Partie 5)
+- 🌟 **Excellent** : 20/20 exercices (toutes les parties)
+
+## ⏱️ Durée estimée
+
+- **Partie 1-2** : 45 minutes (parsing basique + erreurs)
+- **Partie 3-4** : 1h (fichiers)
+- **Partie 5-6** : 1h45 (pipelines + validation)
+- **Total** : ~3h30
+
+## 🆘 Besoin d'aide ?
+
+1. **Consultez le guide Circe** : https://circe.github.io/circe/
+2. **Lisez les commentaires** dans `Exercices.scala`
+3. **Regardez les tests** pour comprendre ce qui est attendu
+4. **Demandez au professeur** !
+
+---
+
+**Bon courage ! 🚀**
+
+
+# 🚀 Séance 6 : Mini-ETL Guidé - Analyse de Restaurants
+
+## 🎯 Objectif
+
+Créer votre premier **pipeline ETL complet** from scratch ! Vous allez :
+- ✅ Parser des données JSON (restaurants)
+- ✅ Nettoyer et valider les données
+- ✅ Calculer des statistiques
+- ✅ Générer un rapport JSON
+
+**Ceci est votre répétition générale avant le projet final !**
+
+## 📊 Les données
+
+Vous avez 2 fichiers dans le dossier `data/` :
+
+### `restaurants_clean.json` (10 restaurants)
+Données parfaites pour commencer.
+
+### `restaurants_dirty.json` (12 restaurants avec erreurs)
+Données réalistes avec :
+- Noms vides
+- Ratings invalides (< 0 ou > 5)
+- Prix hors limites
+- Champs manquants
+- Villes vides
+
+## 📝 Structure d'un restaurant
+
+```scala
+case class Restaurant(
+  id: Int,
+  name: String,
+  cuisine: String,
+  rating: Double,       // Entre 0 et 5
+  priceRange: Int,      // 1 (€) à 4 (€€€€)
+  city: String,
+  vegetarianOptions: Boolean
+)
+```
+
+## 🎯 Mission : Créer un rapport d'analyse
+
+Votre pipeline doit générer un fichier `results.json` contenant :
+
+```json
+{
+  "statistics": {
+    "totalRestaurants": 10,
+    "averageRating": 4.44,
+    "vegetarianFriendlyCount": 8
+  },
+  "topRated": [
+    {"name": "Vegan Delight", "rating": 4.9},
+    {"name": "Sushi Master", "rating": 4.8}
+  ],
+  "byCuisine": {
+    "French": 2,
+    "Japanese": 1,
+    "Italian": 1
+  },
+  "byPriceRange": {
+    "1": 2,
+    "2": 4,
+    "3": 2,
+    "4": 2
+  }
+}
+```
+
+---
+
+## 📚 Guide étape par étape
+
+### Étape 1 : Créer les case classes
+
+Créez le fichier `src/main/scala/Restaurant.scala` :
+
+```scala
+package miniEtl
+
+// TODO: Créer la case class Restaurant avec tous les champs
+
+// TODO: Créer RestaurantStats avec :
+//   - totalRestaurants: Int
+//   - averageRating: Double
+//   - vegetarianFriendlyCount: Int
+
+// TODO: Créer TopRestaurant avec :
+//   - name: String
+//   - rating: Double
+
+// TODO: Créer AnalysisReport avec :
+//   - statistics: RestaurantStats
+//   - topRated: List[TopRestaurant]
+//   - byCuisine: Map[String, Int]
+//   - byPriceRange: Map[String, Int]
+```
+
+**💡 Conseil** : Vérifiez que les noms de champs correspondent exactement au JSON !
+
+### Étape 2 : Lire le fichier JSON
+
+Créez `src/main/scala/DataLoader.scala` :
+
+```scala
+package miniEtl
+
+import io.circe._
+import io.circe.generic.auto._
+import io.circe.parser._
+import scala.io.Source
+import scala.util.{Try, Success, Failure}
+
+object DataLoader {
+
+  /**
+   * Lit un fichier JSON et parse les restaurants
+   */
+  def loadRestaurants(filename: String): Either[String, List[Restaurant]] = {
+    // TODO: Utiliser Try pour lire le fichier
+    //   1. Créer un Source.fromFile(filename)
+    //   2. Lire le contenu avec source.mkString
+    //   3. Fermer le fichier avec source.close() - IMPORTANT !
+    //   4. Parser avec decode[List[Restaurant]](content)
+    //   5. Gérer les erreurs avec pattern matching
+    ???
+  }
+}
+```
+
+**💡 Indices** :
+- Utilisez `decode[List[Restaurant]](jsonString)` pour parser
+- Pensez à fermer le fichier avec `source.close()`
+- Gérez 2 types d'erreurs : lecture de fichier ET parsing JSON
+
+### Étape 3 : Valider les données
+
+Créez `src/main/scala/DataValidator.scala` :
+
+```scala
+package miniEtl
+
+object DataValidator {
+
+  /**
+   * Valide un restaurant selon les règles métier
+   */
+  def isValid(restaurant: Restaurant): Boolean = {
+    // TODO: Vérifier que :
+    //   - name est non vide
+    //   - cuisine est non vide
+    //   - rating est entre 0.0 et 5.0
+    //   - priceRange est entre 1 et 4
+    //   - city est non vide
+    ???
+  }
+
+  /**
+   * Filtre les restaurants valides
+   */
+  def filterValid(restaurants: List[Restaurant]): List[Restaurant] = {
+    // TODO: Utiliser filter avec isValid
+    ???
+  }
+}
+```
+
+**💡 Astuce** : Utilisez `&&` pour combiner les conditions
+
+### Étape 4 : Calculer les statistiques
+
+Créez `src/main/scala/StatsCalculator.scala` :
+
+```scala
+package miniEtl
+
+object StatsCalculator {
+
+  /**
+   * Calcule les statistiques générales
+   */
+  def calculateStats(restaurants: List[Restaurant]): RestaurantStats = {
+    // TODO: Calculer :
+    //   - total : taille de la liste
+    //   - avgRating : somme des ratings / nombre de restaurants
+    //   - vegCount : compter ceux avec vegetarianOptions = true
+    // ATTENTION : gérer le cas liste vide pour éviter division par 0 !
+    ???
+  }
+
+  /**
+   * Top N restaurants par note
+   */
+  def topRated(restaurants: List[Restaurant], n: Int = 3): List[TopRestaurant] = {
+    // TODO: 
+    //   1. Trier par rating décroissant (utiliser sortBy avec -)
+    //   2. Prendre les n premiers (take)
+    //   3. Mapper vers TopRestaurant
+    ???
+  }
+
+  /**
+   * Compte par type de cuisine
+   */
+  def countByCuisine(restaurants: List[Restaurant]): Map[String, Int] = {
+    // TODO: 
+    //   1. Grouper par cuisine (groupBy)
+    //   2. Compter la taille de chaque groupe (map)
+    ???
+  }
+
+  /**
+   * Compte par gamme de prix
+   */
+  def countByPriceRange(restaurants: List[Restaurant]): Map[String, Int] = {
+    // TODO: Comme countByCuisine mais grouper par priceRange
+    // ATTENTION : convertir priceRange en String pour la Map
+    ???
+  }
+}
+```
+
+**💡 Rappels HOFs** :
+- `groupBy(_.field)` : Regroupe par un champ
+- `sortBy(-_.field)` : Trie par ordre décroissant
+- `map(r => TopRestaurant(r.name, r.rating))` : Transforme
+
+### Étape 5 : Générer le rapport
+
+Créez `src/main/scala/ReportGenerator.scala` :
+
+```scala
+package miniEtl
+
+import io.circe._
+import io.circe.generic.auto._
+import io.circe.syntax._
+import java.nio.file.{Files, Paths}
+import java.nio.charset.StandardCharsets
+import scala.util.Try
+
+object ReportGenerator {
+
+  /**
+   * Génère le rapport complet
+   */
+  def generateReport(restaurants: List[Restaurant]): AnalysisReport = {
+    // TODO: Créer un AnalysisReport en utilisant StatsCalculator
+    //   - statistics = StatsCalculator.calculateStats(...)
+    //   - topRated = StatsCalculator.topRated(..., 3)
+    //   - byCuisine = StatsCalculator.countByCuisine(...)
+    //   - byPriceRange = StatsCalculator.countByPriceRange(...)
+    ???
+  }
+
+  /**
+   * Écrit le rapport en JSON
+   */
+  def writeReport(report: AnalysisReport, filename: String): Either[String, Unit] = {
+    // TODO: 
+    //   1. Convertir en JSON : report.asJson.spaces2
+    //   2. Écrire dans le fichier avec Files.write
+    //   3. Gérer les erreurs avec Try
+    ???
+  }
+}
+```
+
+**💡 Astuce** : 
+- `report.asJson.spaces2` : Convertit en JSON avec indentation
+- `Files.write(Paths.get(filename), json.getBytes(StandardCharsets.UTF_8))` : Écrit
+
+### Étape 6 : Assembler le pipeline
+
+Créez `src/main/scala/Main.scala` :
+
+```scala
+package miniEtl
+
+object Main extends App {
+
+  println("Mini-ETL : Analyse de Restaurants\n")
+
+  // TODO: Créer le pipeline ETL avec for-comprehension
+  val result = for {
+    // TODO: 1. Charger les restaurants avec DataLoader
+    restaurants <- ??? // DataLoader.loadRestaurants("data/restaurants_dirty.json")
+    _ = println(s"${restaurants.length} restaurants chargés")
+    
+    // TODO: 2. Valider et filtrer avec DataValidator
+    validRestaurants = ??? // DataValidator.filterValid(...)
+    _ = println(s"${validRestaurants.length} restaurants valides")
+    
+    // TODO: 3. Générer le rapport avec ReportGenerator
+    report = ??? // ReportGenerator.generateReport(...)
+    _ = println(s"Rapport généré")
+    
+    // TODO: 4. Écrire le rapport
+    _ <- ??? // ReportGenerator.writeReport(report, "results.json")
+    _ = println(s"Rapport écrit dans results.json")
+    
+  } yield report
+
+  // TODO: Pattern matching sur result
+  //   - Si Right(report) : Afficher les statistiques
+  //   - Si Left(error) : Afficher l'erreur
+  result match {
+    case Right(report) =>
+      println("\n STATISTIQUES")
+      println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+      // TODO: Afficher report.statistics.totalRestaurants
+      // TODO: Afficher report.statistics.averageRating (avec f"${...}%.2f")
+      // TODO: Afficher report.statistics.vegetarianFriendlyCount
+      
+      println("\n TOP 3 RESTAURANTS")
+      println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+      // TODO: Afficher report.topRated avec zipWithIndex
+      
+      println("\n PAR TYPE DE CUISINE")
+      println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+      // TODO: Afficher report.byCuisine (trier par count décroissant)
+      
+      println("\n PAR GAMME DE PRIX")
+      println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+      // TODO: Afficher report.byPriceRange
+      
+      println("\n Pipeline ETL terminé avec succès !")
+      
+    case Left(error) =>
+      // TODO: Afficher l'erreur et quitter
+      ???
+  }
+}
+```
+
+**💡 Rappels** :
+- Dans for-comprehension : `=` pour calculs, `<-` pour Either
+- `_` pour les effets de bord (println)
+- `f"${variable}%.2f"` pour formatter avec 2 décimales
+
+---
+
+## 🚀 Lancer le projet
+
+### 1. Compiler
+
+```bash
+sbt compile
+```
+
+Si ça compile, vous êtes sur la bonne voie !
+
+### 2. Exécuter
+
+```bash
+sbt run
+```
+
+### 3. Vérifier le résultat
+
+Le fichier `results.json` doit être créé à la racine du projet.
+
+---
+
+## ✅ Checklist
+
+- [ ] Tous les fichiers sont créés
+- [ ] Le projet compile sans erreur
+- [ ] Le programme s'exécute et affiche les statistiques
+- [ ] Le fichier `results.json` est généré
+- [ ] Les données invalides sont bien filtrées (5 rejetés sur 12)
+
+## 🚨 Points d'attention
+
+1. **Imports Circe** : N'oubliez pas dans chaque fichier :
+   ```scala
+   import io.circe._
+   import io.circe.generic.auto._
+   import io.circe.parser._
+   import io.circe.syntax._
+   ```
+
+2. **Fermeture des fichiers** : Toujours `source.close()`
+
+3. **Gestion des listes vides** : 
+   ```scala
+   if (restaurants.nonEmpty) somme / total else 0.0
+   ```
+
+4. **For-comprehension** : 
+   - `restaurants <- load()` : extrait de Either
+   - `filtered = validate()` : simple assignation
+   - `_ = println()` : effet de bord
+
+## 💡 Conseils
+
+- **Testez petit** : Compilez après chaque fichier
+- **Commencez simple** : Testez avec `restaurants_clean.json` d'abord
+- **Lisez les erreurs** : Circe donne des messages très détaillés
+- **Console interactive** : Testez vos fonctions avec `sbt console`
+- **Demandez de l'aide** : C'est pour ça que le professeur est là !
+
+## 🎯 Résultat attendu
+
+Votre programme doit afficher quelque chose comme :
+
+```
+🚀 Mini-ETL : Analyse de Restaurants
+
+✅ 12 restaurants chargés
+✅ 7 restaurants valides (5 rejetés)
+✅ Rapport généré
+✅ Rapport écrit dans results.json
+
+📊 STATISTIQUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total restaurants     : 7
+Note moyenne          : 4.61/5
+Options végétariennes : 7
+
+🏆 TOP 3 RESTAURANTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Vegan Delight (4.9/5)
+2. Sushi Master (4.8/5)
+3. La Brasserie (4.7/5)
+
+🍽️  PAR TYPE DE CUISINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Japanese: 2
+French: 2
+Chinese: 1
+Indian: 1
+Vegan: 1
+
+💰 PAR GAMME DE PRIX
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+€€ (2): 4 restaurants
+€€€ (3): 2 restaurants
+€€€€ (4): 1 restaurants
+
+✅ Pipeline ETL terminé avec succès !
+```
+
+---
+
+**Bon courage ! C'est votre dernière préparation avant le projet final ! 🚀**

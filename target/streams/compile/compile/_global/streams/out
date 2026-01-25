@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\artsm\Documents\BDML_2\scala\projet\src\main\scala\Export.scala:76:52 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m     |Superficie totale      : ${formatNumber(stats.totalArea)} km²[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                              ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                    Found:    (stats.totalArea : Double)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                    Required: Long[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

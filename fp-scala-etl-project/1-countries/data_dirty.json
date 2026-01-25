@@ -1,0 +1,6620 @@
+[
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 245857,
+    "gdp": 13,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60000000,
+    "area": 301340,
+    "gdp": 2001,
+    "languages": [
+      "Italian"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 83879,
+    "gdp": 446,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 30000000,
+    "area": 527968,
+    "gdp": 27,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lom\u00e9",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 56785,
+    "gdp": 7,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 109000000,
+    "area": 300000,
+    "gdp": 377,
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "DR Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 89000000,
+    "area": 2344858,
+    "gdp": 49,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "continent": "South America",
+    "population": 33000000,
+    "area": 1285216,
+    "gdp": 226,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "currency": "Sol"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 38000000,
+    "area": 9984670,
+    "gdp": 1736,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Nur-Sultan",
+    "continent": "Asia",
+    "population": 19000000,
+    "area": 2724900,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Tenge"
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 27750,
+    "gdp": 8,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Gourde"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "capital": "Caracas",
+    "continent": "South America",
+    "population": 28000000,
+    "area": 916445,
+    "gdp": 48,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Bol\u00edvar"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 801590,
+    "gdp": 15,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Metical"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "capital": "Caracas",
+    "continent": "South America",
+    "population": 28000000,
+    "area": 916445,
+    "gdp": 48,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Bol\u00edvar"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38000000,
+    "area": 312696,
+    "gdp": 595,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Zloty"
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "population": 44000000,
+    "area": 603628,
+    "gdp": 155,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Hryvnia"
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 89342,
+    "gdp": 44,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 34000000,
+    "area": 448978,
+    "gdp": 57,
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "currency": "Som"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 48671,
+    "gdp": 89,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 40000000,
+    "area": 438317,
+    "gdp": 234,
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 78871,
+    "gdp": 251,
+    "languages": [
+      "Czech"
+    ],
+    "currency": "Koruna"
+  },
+  {
+    "code": "CH",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 41285,
+    "gdp": 752,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 450295,
+    "gdp": 541,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Krona"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 71740,
+    "gdp": 4,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone"
+  },
+  {
+    "code": "SO",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 637657,
+    "gdp": 5,
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 89342,
+    "gdp": 44,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 26000000,
+    "area": 322463,
+    "gdp": 58,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 65000000,
+    "area": 551695,
+    "gdp": 2716,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 48671,
+    "gdp": 89,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 131957,
+    "gdp": 209,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": null,
+    "area": 238397,
+    "gdp": 250,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Leu"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "continent": "Asia",
+    "population": 126000000,
+    "area": 377975,
+    "gdp": 5082,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": "Yen"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 97000000,
+    "area": 331212,
+    "gdp": 262,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Dong"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 46000000,
+    "area": 241038,
+    "gdp": 37,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 9000000,
+    "area": 462840,
+    "gdp": 24,
+    "languages": [
+      "English",
+      "Tok Pisin"
+    ],
+    "currency": "Kina"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 48671,
+    "gdp": 89,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 131957,
+    "gdp": 209,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 54000000,
+    "area": 676578,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Kyat"
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 19000000,
+    "area": 118484,
+    "gdp": 7,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 97000000,
+    "area": 331212,
+    "gdp": 262,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Dong"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": -83000000,
+    "area": 357022,
+    "gdp": 3861,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "population": 331000000,
+    "area": 9833517,
+    "gdp": 21433,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 71740,
+    "gdp": 4,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 27834,
+    "gdp": 3,
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 947303,
+    "gdp": 63,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 273000000,
+    "area": 1904569,
+    "gdp": 1119,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Rupiah"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 24000000,
+    "area": 36193,
+    "gdp": 611,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 20000000,
+    "area": 1240192,
+    "gdp": 17,
+    "languages": [
+      "French"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 19000000,
+    "area": 118484,
+    "gdp": 7,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "population": 331000000,
+    "area": 9833517,
+    "gdp": 21433,
+    "languages": [],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lom\u00e9",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 56785,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Nepal",
+    "code": "NP",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29000000,
+    "area": 147516,
+    "gdp": 34,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "population": 10000000,
+    "area": 112492,
+    "gdp": 25,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Lempira"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1400000000,
+    "area": 9596961,
+    "gdp": 14343,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Yuan"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 54000000,
+    "area": 676578,
+    "gdp": 76,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Kyat"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60000000,
+    "area": 301340,
+    "gdp": 2001,
+    "languages": [
+      "Italian"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": null,
+    "area": 36193,
+    "gdp": 611,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "DR Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 89000000,
+    "area": 2344858,
+    "gdp": 49,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 83879,
+    "gdp": 446,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "continent": "South America",
+    "population": 33000000,
+    "area": 1285216,
+    "gdp": 226,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "currency": "Sol"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaound\u00e9",
+    "continent": "Africa",
+    "population": 27000000,
+    "area": 475442,
+    "gdp": 39,
+    "languages": [
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 126000000,
+    "area": 377975,
+    "gdp": 5082,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": "Yen"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KH",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": -181035,
+    "gdp": 27,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Riel"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 220000000,
+    "area": 881912,
+    "gdp": 278,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "continent": "Europe",
+    "population": 67000000,
+    "area": 243610,
+    "gdp": 2829,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 143100,
+    "gdp": 8,
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "currency": "Somoni"
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 1284000,
+    "gdp": 11,
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 78871,
+    "gdp": 251,
+    "languages": [
+      "Czech"
+    ],
+    "currency": "Koruna"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 28000000,
+    "area": 587041,
+    "gdp": 14,
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "currency": "Ariary"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 206000000,
+    "area": 923768,
+    "gdp": 448,
+    "languages": [
+      "English"
+    ],
+    "currency": "Naira"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": -59000000,
+    "area": 947303,
+    "gdp": 63,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "code": "GH",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 238533,
+    "gdp": 67,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cedi"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 22000000,
+    "area": 65610,
+    "gdp": 84,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 163610,
+    "gdp": 39,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaound\u00e9",
+    "continent": "Africa",
+    "population": 27000000,
+    "area": 475442,
+    "gdp": 39,
+    "languages": [
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Iran",
+    "code": "IR",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 83000000,
+    "area": -1648195,
+    "gdp": 458,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 27834,
+    "gdp": 3,
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Haiti",
+    "code": "",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 27750,
+    "gdp": 8,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Gourde"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 32000000,
+    "area": 330803,
+    "gdp": 365,
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "currency": "Ringgit"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 15000000,
+    "area": 390757,
+    "gdp": 21,
+    "languages": [
+      "English",
+      "Shona"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 17000000,
+    "area": 196722,
+    "gdp": 24,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "population": 18000000,
+    "area": 108889,
+    "gdp": 77,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": null
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1380000000,
+    "area": 3287263,
+    "gdp": 2875,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 84000000,
+    "area": 783562,
+    "gdp": 754,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Lira"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 26338,
+    "gdp": 10,
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "population": 44000000,
+    "area": 603628,
+    "gdp": 155,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Hryvnia"
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 102000000,
+    "area": 1002450,
+    "gdp": 303,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "population": 44000000,
+    "area": 603628,
+    "gdp": 155,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Hryvnia"
+  },
+  {
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 185180,
+    "gdp": 40,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Iran",
+    "code": "IR",
+    "continent": "Asia",
+    "population": 83000000,
+    "area": 1648195,
+    "gdp": 458,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 947303,
+    "gdp": 63,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": null,
+    "area": 114763,
+    "gdp": 15,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 143100,
+    "gdp": 8,
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "currency": "Somoni"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 126000000,
+    "area": 377975,
+    "gdp": 5082,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 1886068,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 70000000,
+    "area": 513120,
+    "gdp": 505,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Baht"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lom\u00e9",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 56785,
+    "gdp": 7,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Morocco",
+    "code": "MA",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": null,
+    "area": 446550,
+    "gdp": 119,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Iran",
+    "code": "IR",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 83000000,
+    "area": -1648195,
+    "gdp": 458,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 18000000,
+    "area": 752612,
+    "gdp": 23,
+    "languages": [
+      "English"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "population": 10000000,
+    "area": 112492,
+    "gdp": 25,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Lempira"
+  },
+  {
+    "code": "GR",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 131957,
+    "gdp": 209,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaound\u00e9",
+    "continent": "Africa",
+    "population": 27000000,
+    "area": 475442,
+    "gdp": 39,
+    "languages": [
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "continent": "South America",
+    "population": 19000000,
+    "area": 756102,
+    "gdp": 282,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lom\u00e9",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 56785,
+    "gdp": 7,
+    "languages": [],
+    "currency": "Franc"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lom\u00e9",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 56785,
+    "gdp": 7,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 28000000,
+    "area": 587041,
+    "gdp": 14,
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "currency": "Ariary"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 26000000,
+    "area": 322463,
+    "gdp": 58,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 1284000,
+    "gdp": 11,
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 27834,
+    "gdp": 3,
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "continent": "South America",
+    "population": 19000000,
+    "area": 756102,
+    "gdp": 282,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 46000000,
+    "area": 241038,
+    "gdp": 37,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 30000000,
+    "area": 527968,
+    "gdp": 27,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "capital": "Bogot\u00e1",
+    "continent": "South America",
+    "population": 51000000,
+    "area": 1141748,
+    "gdp": 323,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Israel",
+    "code": "IL",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 22072,
+    "gdp": 395,
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "currency": "Shekel"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "continent": "South America",
+    "population": 33000000,
+    "area": 1285216,
+    "gdp": 226,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "currency": "Sol"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SS",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": null,
+    "area": 619745,
+    "gdp": 3,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "South Korea",
+    "code": "KR",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 52000000,
+    "area": 100210,
+    "gdp": 1647,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 30000000,
+    "area": 527968,
+    "gdp": 27,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 93028,
+    "gdp": 163,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Forint"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60000000,
+    "area": 301340,
+    "gdp": 2001,
+    "languages": [
+      "Italian"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26000000,
+    "area": 7692024,
+    "gdp": 1393,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 143100,
+    "gdp": 8,
+    "languages": [],
+    "currency": "Somoni"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 30000000,
+    "area": 527968,
+    "gdp": 27,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Zambia",
+    "code": "",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 18000000,
+    "area": 752612,
+    "gdp": 23,
+    "languages": [
+      "English"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "population": 18000000,
+    "area": 108889,
+    "gdp": 77,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Quetzal"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38000000,
+    "area": 312696,
+    "gdp": 595,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Zloty"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 67000000,
+    "area": 243610,
+    "gdp": 2829,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "code": "UA",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "population": 44000000,
+    "area": 603628,
+    "gdp": 155,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Hryvnia"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 78871,
+    "gdp": 251,
+    "languages": [
+      "Czech"
+    ],
+    "currency": "Koruna"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "population": 10000000,
+    "area": 112492,
+    "gdp": 25,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Lempira"
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 102000000,
+    "area": 1002450,
+    "gdp": 303,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CH",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 41285,
+    "gdp": 752,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Ukraine",
+    "code": "UA",
+    "continent": "Europe",
+    "population": 44000000,
+    "area": 603628,
+    "gdp": 155,
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": "Hryvnia"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 21000000,
+    "area": 272967,
+    "gdp": 16,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 24000000,
+    "area": 1267000,
+    "gdp": 12,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 15000000,
+    "area": 390757,
+    "gdp": 21,
+    "languages": [
+      "English",
+      "Shona"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "continent": "South America",
+    "population": 18000000,
+    "area": 276841,
+    "gdp": 107,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "La Paz",
+    "continent": "South America",
+    "population": 12000000,
+    "area": 1098581,
+    "gdp": 40,
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "currency": "Boliviano"
+  },
+  {
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": null,
+    "area": 17098242,
+    "gdp": 1699,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Ruble"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 70000000,
+    "area": 513120,
+    "gdp": 505,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Baht"
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 27750,
+    "gdp": 8,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Gourde"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "capital": "Bogot\u00e1",
+    "continent": "South America",
+    "population": 51000000,
+    "area": 1141748,
+    "gdp": 323,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 35000000,
+    "area": 2149690,
+    "gdp": 793,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Riyal"
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 32000000,
+    "area": 1246700,
+    "gdp": 89,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Kwanza"
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 238533,
+    "gdp": 67,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cedi"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KH",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 181035,
+    "gdp": 27,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Riel"
+  },
+  {
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": -17000000,
+    "area": 185180,
+    "gdp": 40,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CH",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 41285,
+    "gdp": 752,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 71740,
+    "gdp": 4,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone"
+  },
+  {
+    "name": "Morocco",
+    "code": "MA",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": 37000000,
+    "area": 446550,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 93028,
+    "gdp": 163,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Forint"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26000000,
+    "area": 7692024,
+    "gdp": 1393,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 109884,
+    "gdp": 100,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 17000000,
+    "area": 196722,
+    "gdp": 24,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1380000000,
+    "area": 3287263,
+    "gdp": 2875,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 88361,
+    "gdp": 51,
+    "languages": [
+      "Serbian"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "capital": "Havana",
+    "continent": "North America",
+    "population": null,
+    "area": 109884,
+    "gdp": 100,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 40000000,
+    "area": 438317,
+    "gdp": 234,
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 1886068,
+    "gdp": 34,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "code": "ID",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 273000000,
+    "area": 1904569,
+    "gdp": 1119,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Rupiah"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1400000000,
+    "area": 9596961,
+    "gdp": 14343,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Yuan"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 15000000,
+    "area": 390757,
+    "gdp": 21,
+    "languages": [
+      "English",
+      "Shona"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 115000000,
+    "area": 1104300,
+    "gdp": 96,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Birr"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83000000,
+    "area": 357022,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1400000000,
+    "area": 9596961,
+    "gdp": 14343,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Yuan"
+  },
+  {
+    "name": "Benin",
+    "code": "",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 114763,
+    "gdp": 15,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "India",
+    "code": "",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1380000000,
+    "area": 3287263,
+    "gdp": 2875,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 1221037,
+    "gdp": 351,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Zulu"
+    ],
+    "currency": "Rand"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 1221037,
+    "gdp": 351,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Zulu"
+    ],
+    "currency": null
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1380000000,
+    "area": 3287263,
+    "gdp": 2875,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Somalia",
+    "code": "SO",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 637657,
+    "gdp": 5,
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 206000000,
+    "area": 923768,
+    "gdp": 448,
+    "languages": [
+      "English"
+    ],
+    "currency": "Naira"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CH",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 41285,
+    "gdp": 752,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 131957,
+    "gdp": 209,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 27750,
+    "gdp": 8,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Gourde"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 164000000,
+    "area": 147570,
+    "gdp": 302,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Taka"
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 19000000,
+    "area": 118484,
+    "gdp": 7,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 26000000,
+    "area": 120538,
+    "gdp": 18,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 27834,
+    "gdp": 3,
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 26338,
+    "gdp": 10,
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 450295,
+    "gdp": 541,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Krona"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 163610,
+    "gdp": 39,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "population": 10000000,
+    "area": 112492,
+    "gdp": 25,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Lempira"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 143100,
+    "gdp": 8,
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "currency": "Somoni"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "La Paz",
+    "continent": "South America",
+    "population": 12000000,
+    "area": 1098581,
+    "gdp": 40,
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "currency": "Boliviano"
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "continent": "South America",
+    "population": 19000000,
+    "area": 756102,
+    "gdp": 282,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 12000000,
+    "area": 30528,
+    "gdp": 533,
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SS",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": 11000000,
+    "area": 619745,
+    "gdp": 3,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 245857,
+    "gdp": 13,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Iran",
+    "code": "IR",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 83000000,
+    "area": 1648195,
+    "gdp": 458,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "continent": "Asia",
+    "population": 164000000,
+    "area": 147570,
+    "gdp": 302,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Taka"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 86600,
+    "gdp": 48,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Manat"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 30000000,
+    "area": 527968,
+    "gdp": 27,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 71740,
+    "gdp": 4,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone"
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 89342,
+    "gdp": 44,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Israel",
+    "code": "IL",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 22072,
+    "gdp": 395,
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "currency": "Shekel"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaound\u00e9",
+    "continent": "Africa",
+    "population": 27000000,
+    "area": 475442,
+    "gdp": 39,
+    "languages": [
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 115000000,
+    "area": 1104300,
+    "gdp": 96,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Birr"
+  },
+  {
+    "name": "Nepal",
+    "code": "NP",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29000000,
+    "area": 147516,
+    "gdp": 34,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 947303,
+    "gdp": 63,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 145000000,
+    "area": 17098242,
+    "gdp": 1699,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Ruble"
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 88361,
+    "gdp": 51,
+    "languages": [
+      "Serbian"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 86600,
+    "gdp": 48,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Manat"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "La Paz",
+    "continent": "South America",
+    "population": 12000000,
+    "area": 1098581,
+    "gdp": 40,
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "currency": "Boliviano"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 24000000,
+    "area": 36193,
+    "gdp": 611,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83000000,
+    "area": 357022,
+    "gdp": 3861,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 24000000,
+    "area": 36193,
+    "gdp": 611,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 48671,
+    "gdp": 89,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 114763,
+    "gdp": 15,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 38000000,
+    "area": 9984670,
+    "gdp": 1736,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 115000000,
+    "area": 1104300,
+    "gdp": 96,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Birr"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 17000000,
+    "area": 41850,
+    "gdp": 913,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 54000000,
+    "area": 676578,
+    "gdp": 76,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Kyat"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 21000000,
+    "area": 272967,
+    "gdp": 16,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 15000000,
+    "area": 390757,
+    "gdp": 21,
+    "languages": [
+      "English",
+      "Shona"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "population": 45000000,
+    "area": 2780400,
+    "gdp": 450,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 18000000,
+    "area": 752612,
+    "gdp": 23,
+    "languages": [
+      "English"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 801590,
+    "gdp": 15,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Metical"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 1221037,
+    "gdp": 351,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Zulu"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "continent": "South America",
+    "population": 18000000,
+    "area": 276841,
+    "gdp": 107,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 86600,
+    "gdp": 48,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Manat"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 35000000,
+    "area": 2149690,
+    "gdp": 793,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Riyal"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 22000000,
+    "area": 65610,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83000000,
+    "area": 357022,
+    "gdp": 3861,
+    "languages": [],
+    "currency": "Euro"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 34000000,
+    "area": 448978,
+    "gdp": 57,
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "currency": "Som"
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 24000000,
+    "area": 1267000,
+    "gdp": 12,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 220000000,
+    "area": 881912,
+    "gdp": 278,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 15000000,
+    "area": 390757,
+    "gdp": 21,
+    "languages": [],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "continent": "South America",
+    "population": 18000000,
+    "area": 276841,
+    "gdp": 107,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 109000000,
+    "area": 300000,
+    "gdp": 377,
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 88361,
+    "gdp": 51,
+    "languages": [],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "population": 128000000,
+    "area": 1964375,
+    "gdp": 1258,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 947303,
+    "gdp": 63,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 8000000,
+    "area": 71740,
+    "gdp": 4,
+    "languages": [
+      "English"
+    ],
+    "currency": "Leone"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 83600,
+    "gdp": 421,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "continent": "South America",
+    "population": 18000000,
+    "area": -276841,
+    "gdp": 107,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "continent": "Europe",
+    "population": 12000000,
+    "area": 30528,
+    "gdp": 533,
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 12000000,
+    "area": 30528,
+    "gdp": 533,
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": 53000000,
+    "area": 580367,
+    "gdp": 95,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 35000000,
+    "area": 2149690,
+    "gdp": 793,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Riyal"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 17000000,
+    "area": 41850,
+    "gdp": 913,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 84000000,
+    "area": 783562,
+    "gdp": 754,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Lira"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 26000000,
+    "area": 322463,
+    "gdp": 58,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 9000000,
+    "area": 462840,
+    "gdp": 24,
+    "languages": [
+      "English",
+      "Tok Pisin"
+    ],
+    "currency": "Kina"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 126000000,
+    "area": 377975,
+    "gdp": 5082,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": "Yen"
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 17000000,
+    "area": 196722,
+    "gdp": 24,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 126000000,
+    "area": 377975,
+    "gdp": 5082,
+    "languages": [
+      "Japanese"
+    ],
+    "currency": "Yen"
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": null,
+    "area": 120538,
+    "gdp": 18,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": null,
+    "area": 580367,
+    "gdp": 95,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 28000000,
+    "area": 587041,
+    "gdp": 14,
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "currency": "Ariary"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 83600,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Morocco",
+    "code": "MA",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": 37000000,
+    "area": 446550,
+    "gdp": 119,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 40000000,
+    "area": 438317,
+    "gdp": 234,
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "population": 128000000,
+    "area": 1964375,
+    "gdp": 1258,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": -70000000,
+    "area": 513120,
+    "gdp": 505,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Baht"
+  },
+  {
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 40000000,
+    "area": 438317,
+    "gdp": 234,
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 2381741,
+    "gdp": 170,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 83600,
+    "gdp": 421,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 32000000,
+    "area": 1246700,
+    "gdp": 89,
+    "languages": [],
+    "currency": "Kwanza"
+  },
+  {
+    "name": "Taiwan",
+    "code": "",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 24000000,
+    "area": 36193,
+    "gdp": 611,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 21000000,
+    "area": 272967,
+    "gdp": 16,
+    "languages": [],
+    "currency": "Franc"
+  },
+  {
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 145000000,
+    "area": 17098242,
+    "gdp": 1699,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Ruble"
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 32000000,
+    "area": 1246700,
+    "gdp": 89,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Kwanza"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": -1221037,
+    "gdp": 351,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Zulu"
+    ],
+    "currency": "Rand"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 46000000,
+    "area": 241038,
+    "gdp": 37,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KH",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 181035,
+    "gdp": 27,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Riel"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 115000000,
+    "area": 1104300,
+    "gdp": 96,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Birr"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60000000,
+    "area": 301340,
+    "gdp": 2001,
+    "languages": [
+      "Italian"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 70000000,
+    "area": 513120,
+    "gdp": 505,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Baht"
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1380000000,
+    "area": 3287263,
+    "gdp": 2875,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 102000000,
+    "area": 1002450,
+    "gdp": 303,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 83600,
+    "gdp": 421,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 92090,
+    "gdp": 238,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26000000,
+    "area": 7692024,
+    "gdp": 1393,
+    "languages": [],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "continent": "Asia",
+    "population": 34000000,
+    "area": 448978,
+    "gdp": 57,
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "currency": "Som"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Nur-Sultan",
+    "continent": "Asia",
+    "population": 19000000,
+    "area": 2724900,
+    "gdp": 181,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Tenge"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "continent": "South America",
+    "population": 33000000,
+    "area": 1285216,
+    "gdp": 226,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "currency": "Sol"
+  },
+  {
+    "name": "South Korea",
+    "code": "KR",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 52000000,
+    "area": 100210,
+    "gdp": 1647,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 83600,
+    "gdp": 421,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 9000000,
+    "area": 462840,
+    "gdp": 24,
+    "languages": [
+      "English",
+      "Tok Pisin"
+    ],
+    "currency": "Kina"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 70000000,
+    "area": 513120,
+    "languages": [
+      "Thai"
+    ],
+    "currency": "Baht"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 47000000,
+    "area": 505990,
+    "gdp": 1394,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38000000,
+    "area": 312696,
+    "gdp": 595,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Zloty"
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 26000000,
+    "area": 120538,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 17000000,
+    "area": 41850,
+    "gdp": 913,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": null,
+    "area": 752612,
+    "gdp": 23,
+    "languages": [
+      "English"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "population": 18000000,
+    "area": 108889,
+    "gdp": 77,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Quetzal"
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": -1886068,
+    "gdp": 34,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 65000000,
+    "area": 551695,
+    "gdp": 2716,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Somalia",
+    "code": "SO",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 637657,
+    "gdp": 5,
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 34000000,
+    "area": 448978,
+    "gdp": 57,
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "currency": "Som"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 220000000,
+    "area": 881912,
+    "gdp": 278,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 114763,
+    "gdp": 15,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 20000000,
+    "area": 1240192,
+    "gdp": 17,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 26000000,
+    "area": 120538,
+    "gdp": 18,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 38000000,
+    "area": 9984670,
+    "gdp": 1736,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KH",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 181035,
+    "gdp": 27,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Riel"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 206000000,
+    "area": 923768,
+    "gdp": 448,
+    "languages": [
+      "English"
+    ],
+    "currency": "Naira"
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "population": 45000000,
+    "area": 2780400,
+    "gdp": 450,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 163610,
+    "gdp": 39,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 92090,
+    "gdp": 238,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 26338,
+    "gdp": 10,
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Bras\u00edlia",
+    "continent": "South America",
+    "population": 212000000,
+    "area": 8515767,
+    "gdp": 1839,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Real"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 92090,
+    "gdp": 238,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60000000,
+    "area": 301340,
+    "gdp": 2001,
+    "languages": [
+      "Italian"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 26338,
+    "gdp": 10,
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 450295,
+    "gdp": 541,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Krona"
+  },
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 245857,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 164000000,
+    "area": -147570,
+    "gdp": 302,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Taka"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 206000000,
+    "area": 923768,
+    "gdp": 448,
+    "languages": [
+      "English"
+    ],
+    "currency": "Naira"
+  },
+  {
+    "name": "DR Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 89000000,
+    "area": 2344858,
+    "gdp": 49,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 93028,
+    "gdp": 163,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Forint"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 164000000,
+    "area": 147570,
+    "gdp": 302,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Taka"
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19000000,
+    "area": 238397,
+    "gdp": 250,
+    "languages": [],
+    "currency": "Leu"
+  },
+  {
+    "name": "Iran",
+    "code": "IR",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 83000000,
+    "area": 1648195,
+    "gdp": 458,
+    "languages": [
+      "Persian"
+    ],
+    "currency": "Rial"
+  },
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": -13000000,
+    "area": 245857,
+    "gdp": 13,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "population": 45000000,
+    "area": 2780400,
+    "gdp": 450,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "continent": "North America",
+    "population": 128000000,
+    "area": 1964375,
+    "gdp": 1258,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": -114763,
+    "gdp": 15,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 273000000,
+    "area": 1904569,
+    "gdp": 1119,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Rupiah"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": -1400000000,
+    "area": 9596961,
+    "gdp": 14343,
+    "languages": [
+      "Mandarin"
+    ],
+    "currency": "Yuan"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Bras\u00edlia",
+    "continent": "South America",
+    "population": 212000000,
+    "area": 8515767,
+    "gdp": 1839,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Real"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Bras\u00edlia",
+    "continent": "South America",
+    "population": null,
+    "area": 8515767,
+    "gdp": 1839,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Real"
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 27750,
+    "gdp": 8,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": "Gourde"
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 1284000,
+    "gdp": 11,
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "population": 45000000,
+    "area": 2780400,
+    "gdp": 450,
+    "languages": [],
+    "currency": "Peso"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": -31000000,
+    "area": 801590,
+    "gdp": 15,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Metical"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 78871,
+    "gdp": 251,
+    "languages": [
+      "Czech"
+    ],
+    "currency": "Koruna"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 26338,
+    "gdp": 10,
+    "languages": [
+      "Kinyarwanda",
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": 53000000,
+    "area": 580367,
+    "gdp": 95,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 1886068,
+    "gdp": 34,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 19000000,
+    "area": 118484,
+    "gdp": 7,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 40000000,
+    "area": 438317,
+    "gdp": 234,
+    "languages": [
+      "Arabic",
+      "Kurdish"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "La Paz",
+    "continent": "South America",
+    "population": 12000000,
+    "area": 1098581,
+    "gdp": 40,
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "currency": "Boliviano"
+  },
+  {
+    "name": "Serbia",
+    "code": "",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 88361,
+    "gdp": 51,
+    "languages": [
+      "Serbian"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 450295,
+    "gdp": 541,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Krona"
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 17000000,
+    "area": 196722,
+    "gdp": 24,
+    "languages": [],
+    "currency": "Franc"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 26000000,
+    "area": 322463,
+    "gdp": 58,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SS",
+    "continent": "Africa",
+    "population": 11000000,
+    "area": 619745,
+    "gdp": 3,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "code": "GN",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 13000000,
+    "area": 245857,
+    "gdp": 13,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "capital": "Caracas",
+    "continent": "South America",
+    "population": 28000000,
+    "area": 916445,
+    "gdp": 48,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Bol\u00edvar"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KH",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 181035,
+    "gdp": 27,
+    "languages": [
+      "Khmer"
+    ],
+    "currency": "Riel"
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19000000,
+    "area": -238397,
+    "gdp": 250,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Leu"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 97000000,
+    "area": 331212,
+    "gdp": 262,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Dong"
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 1284000,
+    "gdp": 11,
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "capital": "Havana",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 109884,
+    "gdp": 100,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 83879,
+    "gdp": 446,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 93028,
+    "gdp": 163,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Forint"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 21000000,
+    "area": 272967,
+    "gdp": 16,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 97000000,
+    "area": 331212,
+    "gdp": 262,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Dong"
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 273000000,
+    "area": 1904569,
+    "gdp": 1119,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Rupiah"
+  },
+  {
+    "name": "Venezuela",
+    "code": "",
+    "capital": "Caracas",
+    "continent": "South America",
+    "population": 28000000,
+    "area": 916445,
+    "gdp": 48,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Bol\u00edvar"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 12000000,
+    "area": 30528,
+    "gdp": 533,
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 109000000,
+    "area": 300000,
+    "gdp": 377,
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "capital": "Havana",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 109884,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 238533,
+    "gdp": 67,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cedi"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 83879,
+    "gdp": 446,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "code": "KR",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 52000000,
+    "area": 100210,
+    "gdp": 1647,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "continent": "South America",
+    "population": 18000000,
+    "area": 276841,
+    "gdp": 107,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "population": 331000000,
+    "area": 9833517,
+    "gdp": 21433,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Nur-Sultan",
+    "continent": "Asia",
+    "population": 19000000,
+    "area": 2724900,
+    "gdp": 181,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Tenge"
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "continent": "South America",
+    "population": 19000000,
+    "area": 756102,
+    "gdp": 282,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "capital": "Caracas",
+    "continent": "South America",
+    "population": 28000000,
+    "area": 916445,
+    "gdp": 48,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Bol\u00edvar"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 109000000,
+    "area": 300000,
+    "gdp": 377,
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "population": 10000000,
+    "area": 112492,
+    "gdp": 25,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Lempira"
+  },
+  {
+    "name": "Nepal",
+    "code": "",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29000000,
+    "area": 147516,
+    "gdp": 34,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 83879,
+    "gdp": 446,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "DR Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 89000000,
+    "area": 2344858,
+    "gdp": 49,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 185180,
+    "gdp": 40,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 32000000,
+    "area": 1246700,
+    "gdp": 89,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Kwanza"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 67000000,
+    "area": 243610,
+    "gdp": 2829,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": -53000000,
+    "area": 580367,
+    "gdp": 95,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 38000000,
+    "area": 9984670,
+    "gdp": 1736,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "population": 18000000,
+    "area": 108889,
+    "gdp": 77,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Quetzal"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "population": 331000000,
+    "area": 9833517,
+    "gdp": 21433,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "La Paz",
+    "continent": "South America",
+    "population": 12000000,
+    "area": 1098581,
+    "gdp": 40,
+    "languages": [
+      "Spanish",
+      "Quechua",
+      "Aymara"
+    ],
+    "currency": "Boliviano"
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 24000000,
+    "area": 1267000,
+    "gdp": 12,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Bras\u00edlia",
+    "continent": "South America",
+    "population": 212000000,
+    "area": 8515767,
+    "gdp": 1839,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Real"
+  },
+  {
+    "name": "DR Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 89000000,
+    "area": 2344858,
+    "gdp": 49,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 67000000,
+    "area": 243610,
+    "gdp": 2829,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 47000000,
+    "area": 505990,
+    "gdp": 1394,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "continent": "North America",
+    "population": 128000000,
+    "area": 1964375,
+    "gdp": 1258,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 65000000,
+    "area": 551695,
+    "gdp": 2716,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 9000000,
+    "area": 462840,
+    "gdp": 24,
+    "languages": [
+      "English",
+      "Tok Pisin"
+    ],
+    "currency": "Kina"
+  },
+  {
+    "name": "South Korea",
+    "code": "KR",
+    "continent": "Asia",
+    "population": 52000000,
+    "area": 100210,
+    "gdp": 1647,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 109000000,
+    "area": 300000,
+    "gdp": 377,
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "code": "NP",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29000000,
+    "area": 147516,
+    "gdp": 34,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 47000000,
+    "area": 505990,
+    "gdp": 1394,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 19000000,
+    "area": -118484,
+    "gdp": 7,
+    "languages": [
+      "English",
+      "Chichewa"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CH",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 9000000,
+    "area": 41285,
+    "gdp": 752,
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": null
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "population": 18000000,
+    "area": 108889,
+    "gdp": 77,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Quetzal"
+  },
+  {
+    "name": "Somalia",
+    "code": "SO",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 637657,
+    "gdp": 5,
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 32000000,
+    "area": -330803,
+    "gdp": 365,
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "currency": "Ringgit"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Nur-Sultan",
+    "continent": "Asia",
+    "population": 19000000,
+    "area": 2724900,
+    "gdp": 181,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Tenge"
+  },
+  {
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 20000000,
+    "area": 1240192,
+    "gdp": 17,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": 53000000,
+    "area": -580367,
+    "gdp": 95,
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "continent": "Africa",
+    "population": 102000000,
+    "area": 1002450,
+    "gdp": 303,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 1886068,
+    "gdp": 34,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38000000,
+    "area": 312696,
+    "gdp": 595,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Zloty"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 2381741,
+    "gdp": 170,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "continent": "North America",
+    "population": 38000000,
+    "area": 9984670,
+    "gdp": 1736,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": -238533,
+    "gdp": 67,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cedi"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 46000000,
+    "area": 241038,
+    "gdp": 37,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 84000000,
+    "area": 783562,
+    "gdp": 754,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Lira"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 27834,
+    "gdp": 3,
+    "languages": [
+      "Kirundi",
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Greece",
+    "code": "GR",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 131957,
+    "gdp": 209,
+    "languages": [
+      "Greek"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 24000000,
+    "area": 1267000,
+    "gdp": 12,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Israel",
+    "code": "IL",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 22072,
+    "gdp": 395,
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "currency": "Shekel"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 163610,
+    "gdp": 39,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 54000000,
+    "area": -676578,
+    "gdp": 76,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Kyat"
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 273000000,
+    "area": 1904569,
+    "gdp": 1119,
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": "Rupiah"
+  },
+  {
+    "name": "Egypt",
+    "code": "EG",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 102000000,
+    "area": 1002450,
+    "gdp": 303,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaound\u00e9",
+    "continent": "Africa",
+    "population": 27000000,
+    "area": 475442,
+    "gdp": 39,
+    "languages": [
+      "French",
+      "English"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Bras\u00edlia",
+    "continent": "South America",
+    "population": 212000000,
+    "area": 8515767,
+    "gdp": 1839,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Real"
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 18000000,
+    "area": 752612,
+    "gdp": 23,
+    "languages": [
+      "English"
+    ],
+    "currency": "Kwacha"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 32000000,
+    "area": 330803,
+    "gdp": 365,
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "currency": "Ringgit"
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 24000000,
+    "area": 1267000,
+    "gdp": 12,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 1284000,
+    "gdp": 11,
+    "languages": [
+      "French",
+      "Arabic"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38000000,
+    "area": 312696,
+    "gdp": 595,
+    "languages": [
+      "Polish"
+    ],
+    "currency": "Zloty"
+  },
+  {
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 145000000,
+    "area": 17098242,
+    "gdp": 1699,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Ruble"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 86600,
+    "gdp": 48,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Manat"
+  },
+  {
+    "name": "Turkey",
+    "code": "",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 84000000,
+    "area": 783562,
+    "gdp": 754,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Lira"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 22000000,
+    "area": 65610,
+    "gdp": 84,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 450295,
+    "gdp": 541,
+    "languages": [
+      "Swedish"
+    ],
+    "currency": "Krona"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 34000000,
+    "area": 448978,
+    "gdp": 57,
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "currency": "Som"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 59000000,
+    "area": 1221037,
+    "gdp": 351,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Zulu"
+    ],
+    "currency": "Rand"
+  },
+  {
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 26000000,
+    "area": 120538,
+    "gdp": 18,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "continent": "Africa",
+    "population": 32000000,
+    "area": 1246700,
+    "gdp": 89,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Kwanza"
+  },
+  {
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 20000000,
+    "area": 1240192,
+    "gdp": 17,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26000000,
+    "area": 7692024,
+    "gdp": 1393,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Morocco",
+    "code": "MA",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": 37000000,
+    "area": 446550,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dirham"
+  },
+  {
+    "name": "Turkey",
+    "code": "TR",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 84000000,
+    "area": 783562,
+    "gdp": 754,
+    "languages": [
+      "Turkish"
+    ],
+    "currency": "Lira"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 28000000,
+    "area": 587041,
+    "gdp": 14,
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "currency": "Ariary"
+  },
+  {
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "continent": "South America",
+    "population": 19000000,
+    "area": 756102,
+    "gdp": 282,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 48671,
+    "gdp": 89,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Somalia",
+    "code": "SO",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 16000000,
+    "area": 637657,
+    "gdp": 5,
+    "languages": [
+      "Somali",
+      "Arabic"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "capital": "Bogot\u00e1",
+    "continent": "South America",
+    "population": 51000000,
+    "area": 1141748,
+    "gdp": 323,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 89342,
+    "gdp": 44,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "population": 331000000,
+    "area": 9833517,
+    "gdp": 21433,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "code": "IL",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 22072,
+    "gdp": 395,
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "currency": "Shekel"
+  },
+  {
+    "name": "Hungary",
+    "code": "HU",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 93028,
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": "Forint"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "continent": "South America",
+    "population": 33000000,
+    "area": 1285216,
+    "gdp": 226,
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "currency": "Sol"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 2381741,
+    "gdp": 170,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 17000000,
+    "area": 196722,
+    "gdp": 24,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 185180,
+    "gdp": 40,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 801590,
+    "gdp": 15,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Metical"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 17000000,
+    "area": 41850,
+    "gdp": 913,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 11000000,
+    "area": 78871,
+    "gdp": 251,
+    "languages": [
+      "Czech"
+    ],
+    "currency": "Koruna"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 28000000,
+    "area": -587041,
+    "gdp": 14,
+    "languages": [
+      "Malagasy",
+      "French"
+    ],
+    "currency": "Ariary"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 12000000,
+    "area": 163610,
+    "gdp": 39,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 20000000,
+    "area": 1240192,
+    "gdp": 17,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 22000000,
+    "area": 65610,
+    "gdp": 84,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 65000000,
+    "area": 551695,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SS",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": 11000000,
+    "area": 619745,
+    "gdp": 3,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "capital": "Bogot\u00e1",
+    "continent": "South America",
+    "population": 51000000,
+    "area": 1141748,
+    "gdp": 323,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 47000000,
+    "area": 505990,
+    "gdp": 1394,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 143100,
+    "gdp": 8,
+    "languages": [
+      "Tajik",
+      "Russian"
+    ],
+    "currency": "Somoni"
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19000000,
+    "area": 238397,
+    "gdp": 250,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Leu"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 206000000,
+    "area": 923768,
+    "gdp": 448,
+    "languages": [
+      "English"
+    ],
+    "currency": "Naira"
+  },
+  {
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 17000000,
+    "area": 185180,
+    "gdp": 40,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Israel",
+    "code": "IL",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 9000000,
+    "area": 22072,
+    "gdp": 395,
+    "languages": [
+      "Hebrew",
+      "Arabic"
+    ],
+    "currency": "Shekel"
+  },
+  {
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19000000,
+    "area": 238397,
+    "gdp": 250,
+    "languages": [
+      "Romanian"
+    ],
+    "currency": "Leu"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 92090,
+    "gdp": 238,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 83000000,
+    "area": 357022,
+    "gdp": 3861,
+    "languages": [
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 238533,
+    "gdp": 67,
+    "languages": [
+      "English"
+    ],
+    "currency": "Cedi"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 35000000,
+    "area": 2149690,
+    "gdp": 793,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Riyal"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 97000000,
+    "area": 331212,
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": "Dong"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 65000000,
+    "area": 551695,
+    "gdp": 2716,
+    "languages": [
+      "French"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "South Korea",
+    "code": "KR",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 52000000,
+    "area": 100210,
+    "gdp": 1647,
+    "languages": [
+      "Korean"
+    ],
+    "currency": "Won"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 22000000,
+    "area": 65610,
+    "gdp": 84,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10000000,
+    "area": 92090,
+    "gdp": 238,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 89342,
+    "gdp": 44,
+    "languages": [
+      "Arabic"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "continent": "Asia",
+    "population": 54000000,
+    "area": 676578,
+    "gdp": 76,
+    "languages": [
+      "Burmese"
+    ],
+    "currency": "Kyat"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 26000000,
+    "area": 7692024,
+    "gdp": 1393,
+    "languages": [
+      "English"
+    ],
+    "currency": "Dollar"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 115000000,
+    "area": 1104300,
+    "languages": [
+      "Amharic"
+    ],
+    "currency": "Birr"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 164000000,
+    "area": 147570,
+    "gdp": 302,
+    "languages": [
+      "Bengali"
+    ],
+    "currency": "Taka"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 17000000,
+    "area": 41850,
+    "gdp": 913,
+    "languages": [
+      "Dutch"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Nepal",
+    "code": "NP",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 29000000,
+    "area": 147516,
+    "gdp": 34,
+    "languages": [
+      "Nepali"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "population": 128000000,
+    "area": 1964375,
+    "gdp": 1258,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "code": "CO",
+    "capital": "Bogot\u00e1",
+    "continent": "South America",
+    "population": 51000000,
+    "area": 1141748,
+    "gdp": 323,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 145000000,
+    "area": 17098242,
+    "gdp": 1699,
+    "languages": [
+      "Russian"
+    ],
+    "currency": "Ruble"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 9000000,
+    "area": 462840,
+    "gdp": 24,
+    "languages": [
+      "English",
+      "Tok Pisin"
+    ],
+    "currency": "Kina"
+  },
+  {
+    "name": "Belgium",
+    "code": "BE",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 12000000,
+    "area": 30528,
+    "gdp": 533,
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 10000000,
+    "area": 86600,
+    "gdp": 48,
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": "Manat"
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": -9000000,
+    "area": 88361,
+    "gdp": 51,
+    "languages": [
+      "Serbian"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 2381741,
+    "gdp": 170,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Nur-Sultan",
+    "continent": "Asia",
+    "population": 19000000,
+    "area": 2724900,
+    "gdp": 181,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": "Tenge"
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "population": 45000000,
+    "area": 2780400,
+    "gdp": 450,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "capital": "Havana",
+    "continent": "North America",
+    "population": 11000000,
+    "area": 109884,
+    "gdp": 100,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Peso"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SS",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": -11000000,
+    "area": 619745,
+    "gdp": 3,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 46000000,
+    "area": 241038,
+    "gdp": 37,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": "Shilling"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 26000000,
+    "area": 322463,
+    "gdp": 58,
+    "languages": [
+      "French"
+    ],
+    "currency": "Franc"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 220000000,
+    "area": 881912,
+    "gdp": 278,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 32000000,
+    "area": 330803,
+    "gdp": 365,
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "currency": "Ringgit"
+  },
+  {
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 47000000,
+    "area": 505990,
+    "gdp": 1394,
+    "languages": [
+      "Spanish"
+    ],
+    "currency": "Euro"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 31000000,
+    "area": 801590,
+    "gdp": 15,
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": "Metical"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 220000000,
+    "area": 881912,
+    "gdp": 278,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "currency": "Rupee"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 43000000,
+    "area": 2381741,
+    "gdp": 170,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": "Dinar"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 67000000,
+    "area": 243610,
+    "gdp": 2829,
+    "languages": [
+      "English"
+    ],
+    "currency": "Pound"
+  }
+]
