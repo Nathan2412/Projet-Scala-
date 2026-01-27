@@ -89,3 +89,8 @@ def currencyUsage(countries: List[Country], topN: Int = 10): Map[String, Int] = 
         .take(topN)
         .toMap
 }
+
+// Pays avec 3 langues ou plus
+def paysMultilingues(countries: List[Country]): List[Country] = {
+    countries.filter(_.languages.length >= 3)
+}

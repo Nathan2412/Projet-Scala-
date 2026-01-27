@@ -132,7 +132,7 @@ def analyserParContinent(countries: List[Country]): Unit = {
   }
 }
 
-def sauvegarderRapport(countries: List[Country], nbClean: Int, nbDirty: Int, nbLarge: Int): Unit = {
+def sauvegarderRapport(countries: List[Country], nbClean: Int, nbDirty: Int, nbLarge: Int, doublonsSup: Int, tempsMs: Long): Unit = {
   try {
     val outputDir = new File("output")
     if (!outputDir.exists()) outputDir.mkdirs()
@@ -144,83 +144,166 @@ def sauvegarderRapport(countries: List[Country], nbClean: Int, nbDirty: Int, nbL
     
     val writerTxt = new PrintWriter("output/rapport.txt")
     
-    writerTxt.println("=== RAPPORT - PAYS DU MONDE ===")
+    writerTxt.println("===============================================")
+    writerTxt.println("     RAPPORT D'ANALYSE - PAYS DU MONDE")
+    writerTxt.println("===============================================")
     writerTxt.println()
-    writerTxt.println("SOURCES DE DONNEES :")
-    writerTxt.println(s"- data_clean.json : $nbClean pays")
-    writerTxt.println(s"- data_dirty.json : $nbDirty pays")
-    writerTxt.println(s"- data_large.json : $nbLarge pays")
-    writerTxt.println(s"- Total avant agregation : ${nbClean + nbDirty + nbLarge}")
-    writerTxt.println(s"- Total apres agregation : ${countries.size}")
+    writerTxt.println("STATISTIQUES DE PARSING")
+    writerTxt.println("---------------------------")
+    writerTxt.println(s"- Entrees totales lues      : ${nbClean + nbDirty + nbLarge}")
+    writerTxt.println(s"- Entrees valides           : ${countries.size}")
+    writerTxt.println(s"- Doublons supprimes        : $doublonsSup")
     writerTxt.println()
     
     val populationTotale = countries.flatMap(_.population).sum
     val superficieTotale = countries.flatMap(_.area).sum.toLong
     
-    writerTxt.println("STATISTIQUES :")
-    writerTxt.println(s"- Population totale : $populationTotale")
+    writerTxt.println("STATISTIQUES GLOBALES")
+    writerTxt.println("---------------------------")
+    writerTxt.println(s"- Population totale : $populationTotale habitants")
     writerTxt.println(s"- Superficie totale : $superficieTotale km2")
     writerTxt.println()
     
-    val top10 = countries.filter(_.population.isDefined).sortBy(_.population.get).reverse.take(10)
-    writerTxt.println("TOP 10 POPULATION :")
-    top10.zipWithIndex.foreach { case (pays, i) =>
-      writerTxt.println(s"${i+1}. ${pays.name.getOrElse("?")} : ${pays.population.get}")
+    // Top 10 population
+    val top10Pop = countries.filter(_.population.isDefined).sortBy(_.population.get).reverse.take(10)
+    writerTxt.println("TOP 10 - POPULATION")
+    writerTxt.println("----------------------")
+    top10Pop.zipWithIndex.foreach { case (pays, i) =>
+      writerTxt.println(s"${i+1}. ${pays.name.getOrElse("?")} : ${pays.population.get} hab.")
     }
     writerTxt.println()
     
+    // Top 10 superficie
+    val top10Area = countries.filter(_.area.isDefined).sortBy(_.area.get).reverse.take(10)
+    writerTxt.println("TOP 10 - SUPERFICIE")
+    writerTxt.println("-----------------------")
+    top10Area.zipWithIndex.foreach { case (pays, i) =>
+      writerTxt.println(s"${i+1}. ${pays.name.getOrElse("?")} : ${pays.area.get.toLong} km2")
+    }
+    writerTxt.println()
+    
+    // Top 10 PIB
+    val top10Gdp = countries.filter(_.gdp.isDefined).sortBy(_.gdp.get).reverse.take(10)
+    writerTxt.println("TOP 10 - PIB")
+    writerTxt.println("---------------")
+    top10Gdp.zipWithIndex.foreach { case (pays, i) =>
+      writerTxt.println(s"${i+1}. ${pays.name.getOrElse("?")} : ${pays.gdp.get.toLong} milliards USD")
+    }
+    writerTxt.println()
+    
+    // Par continent
     val parContinent = countries.filter(_.continent.isDefined).groupBy(_.continent.get).toSeq.sortBy(_._1)
-    writerTxt.println("PAR CONTINENT :")
+    writerTxt.println("REPARTITION PAR CONTINENT")
+    writerTxt.println("-----------------------------")
     parContinent.foreach { case (continent, pays) =>
       writerTxt.println(s"- $continent : ${pays.size} pays")
     }
+    writerTxt.println()
+    
+    // Population moyenne par continent
+    writerTxt.println("MOYENNES PAR CONTINENT")
+    writerTxt.println("--------------------------")
+    parContinent.foreach { case (continent, pays) =>
+      val popMoy = pays.flatMap(_.population).sum / pays.size
+      writerTxt.println(s"- $continent : $popMoy hab. (moyenne)")
+    }
+    writerTxt.println()
+    
+    // Langues les plus parlees
+    val langues = countries.flatMap(_.languages).groupBy(identity).view.mapValues(_.size).toList.sortBy(-_._2).take(5)
+    writerTxt.println("LANGUES LES PLUS REPANDUES")
+    writerTxt.println("--------------------------------")
+    langues.zipWithIndex.foreach { case ((langue, nb), i) =>
+      writerTxt.println(s"${i+1}. $langue : $nb pays")
+    }
+    writerTxt.println()
+    
+    // Pays multilingues
+    val multilingues = countries.filter(_.languages.length >= 3)
+    writerTxt.println(s"PAYS MULTILINGUES (>= 3 langues) : ${multilingues.size} pays")
+    writerTxt.println()
+    
+    // Performance
+    val tempsSec = tempsMs / 1000.0
+    writerTxt.println("PERFORMANCE")
+    writerTxt.println("---------------")
+    writerTxt.println(f"- Temps de traitement : $tempsSec%.3f secondes")
+    writerTxt.println()
+    writerTxt.println("===============================================")
     
     writerTxt.close()
     
     val writerJson = new PrintWriter("output/rapport.json")
     
-    val top10Json = top10.map { pays =>
-      s"""    {"name": "${pays.name.getOrElse("?")}", "population": ${pays.population.get}}"""
+    // Top 10 population JSON
+    val top10PopJson = top10Pop.map { pays =>
+      s"""    {"name": "${pays.name.getOrElse("?")}", "population": ${pays.population.get}, "continent": "${pays.continent.getOrElse("?")}"}"""
     }.mkString(",\n")
     
+    // Top 10 superficie JSON
+    val top10AreaJson = top10Area.map { pays =>
+      s"""    {"name": "${pays.name.getOrElse("?")}", "area": ${pays.area.get.toLong}, "continent": "${pays.continent.getOrElse("?")}"}"""
+    }.mkString(",\n")
+    
+    // Top 10 PIB JSON
+    val top10GdpJson = top10Gdp.map { pays =>
+      s"""    {"name": "${pays.name.getOrElse("?")}", "gdp": ${pays.gdp.get.toLong}, "continent": "${pays.continent.getOrElse("?")}"}"""
+    }.mkString(",\n")
+    
+    // Continents JSON
     val continentJson = parContinent.map { case (continent, pays) =>
-      s"""    {"continent": "$continent", "count": ${pays.size}}"""
+      s"""    "$continent": ${pays.size}"""
     }.mkString(",\n")
     
-    val paysJson = countries.take(20).map { pays =>
-      val nom = pays.name.getOrElse("?").replace("\"", "\\\"")
-      val pop = pays.population.getOrElse(0L)
-      val cont = pays.continent.getOrElse("?")
-      s"""    {"name": "$nom", "population": $pop, "continent": "$cont"}"""
+    // Moyenne population par continent
+    val avgPopJson = parContinent.map { case (continent, pays) =>
+      val avg = pays.flatMap(_.population).sum / pays.size
+      s"""    "$continent": $avg"""
+    }.mkString(",\n")
+    
+    // Langues JSON
+    val languesJson = langues.map { case (langue, nb) =>
+      s"""    {"language": "$langue", "count": $nb}"""
+    }.mkString(",\n")
+    
+    // Multilingues JSON
+    val multiJson = multilingues.take(10).map { pays =>
+      val langs = pays.languages.map(l => s""""$l"""").mkString(", ")
+      s"""    {"name": "${pays.name.getOrElse("?")}", "languages": [$langs]}"""
     }.mkString(",\n")
     
     writerJson.println("{")
-    writerJson.println(s"""  "sources": {""")
-    writerJson.println(s"""    "data_clean": $nbClean,""")
-    writerJson.println(s"""    "data_dirty": $nbDirty,""")
-    writerJson.println(s"""    "data_large": $nbLarge,""")
-    writerJson.println(s"""    "total_avant_agregation": ${nbClean + nbDirty + nbLarge},""")
-    writerJson.println(s"""    "total_apres_agregation": ${countries.size}""")
+    writerJson.println(s"""  "statistics": {""")
+    writerJson.println(s"""    "total_countries_parsed": ${nbClean + nbDirty + nbLarge},""")
+    writerJson.println(s"""    "total_countries_valid": ${countries.size},""")
+    writerJson.println(s"""    "duplicates_removed": $doublonsSup""")
     writerJson.println(s"""  },""")
-    writerJson.println(s"""  "statistiques": {""")
-    writerJson.println(s"""    "population_totale": $populationTotale,""")
-    writerJson.println(s"""    "superficie_totale": $superficieTotale,""")
-    writerJson.println(s"""    "nombre_pays": ${countries.size}""")
-    writerJson.println(s"""  },""")
-    writerJson.println(s"""  "top10_population": [""")
-    writerJson.println(top10Json)
+    writerJson.println(s"""  "top_10_by_population": [""")
+    writerJson.println(top10PopJson)
     writerJson.println(s"""  ],""")
-    writerJson.println(s"""  "par_continent": [""")
+    writerJson.println(s"""  "top_10_by_area": [""")
+    writerJson.println(top10AreaJson)
+    writerJson.println(s"""  ],""")
+    writerJson.println(s"""  "top_10_by_gdp": [""")
+    writerJson.println(top10GdpJson)
+    writerJson.println(s"""  ],""")
+    writerJson.println(s"""  "countries_by_continent": {""")
     writerJson.println(continentJson)
+    writerJson.println(s"""  },""")
+    writerJson.println(s"""  "average_population_by_continent": {""")
+    writerJson.println(avgPopJson)
+    writerJson.println(s"""  },""")
+    writerJson.println(s"""  "most_common_languages": [""")
+    writerJson.println(languesJson)
     writerJson.println(s"""  ],""")
-    writerJson.println(s"""  "pays": [""")
-    writerJson.println(paysJson)
+    writerJson.println(s"""  "multilingual_countries": [""")
+    writerJson.println(multiJson)
     writerJson.println(s"""  ]""")
     writerJson.println("}")
     
     writerJson.close()
     
-    println("\nRapports sauvegardes dans output/rapport.txt et output/rapport.json")
+    println(s"\nRapports sauvegardes dans output/rapport.txt et output/rapport.json")
   } catch {
     case e: Exception => println(s"Erreur : ${e.getMessage}")
   }

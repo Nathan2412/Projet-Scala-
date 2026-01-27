@@ -1,32 +1,87 @@
-=== RAPPORT - PAYS DU MONDE ===
+===============================================
+     RAPPORT D'ANALYSE - PAYS DU MONDE
+===============================================
 
-SOURCES DE DONNEES :
-- data_clean.json : 101 pays
-- data_dirty.json : 500 pays
-- data_large.json : 12120 pays
-- Total avant agregation : 12721
-- Total apres agregation : 101
+STATISTIQUES DE PARSING
+---------------------------
+- Entrees totales lues      : 12721
+- Entrees valides           : 101
+- Doublons supprimes        : 12620
 
-STATISTIQUES :
-- Population totale : 7454000000
+STATISTIQUES GLOBALES
+---------------------------
+- Population totale : 7454000000 habitants
 - Superficie totale : 121029857 km2
 
-TOP 10 POPULATION :
-1. China : 1400000000
-2. India : 1380000000
-3. United States : 331000000
-4. Indonesia : 273000000
-5. Pakistan : 220000000
-6. Brazil : 212000000
-7. Nigeria : 206000000
-8. Bangladesh : 164000000
-9. Russia : 145000000
-10. Mexico : 128000000
+TOP 10 - POPULATION
+----------------------
+1. China : 1400000000 hab.
+2. India : 1380000000 hab.
+3. United States : 331000000 hab.
+4. Indonesia : 273000000 hab.
+5. Pakistan : 220000000 hab.
+6. Brazil : 212000000 hab.
+7. Nigeria : 206000000 hab.
+8. Bangladesh : 164000000 hab.
+9. Russia : 145000000 hab.
+10. Mexico : 128000000 hab.
 
-PAR CONTINENT :
+TOP 10 - SUPERFICIE
+-----------------------
+1. Russia : 17098242 km2
+2. Canada : 9984670 km2
+3. United States : 9833517 km2
+4. China : 9596961 km2
+5. Brazil : 8515767 km2
+6. Australia : 7692024 km2
+7. India : 3287263 km2
+8. Argentina : 2780400 km2
+9. Kazakhstan : 2724900 km2
+10. Algeria : 2381741 km2
+
+TOP 10 - PIB
+---------------
+1. United States : 21433 milliards USD
+2. China : 14343 milliards USD
+3. Japan : 5082 milliards USD
+4. Germany : 3861 milliards USD
+5. India : 2875 milliards USD
+6. United Kingdom : 2829 milliards USD
+7. France : 2716 milliards USD
+8. Italy : 2001 milliards USD
+9. Brazil : 1839 milliards USD
+10. Canada : 1736 milliards USD
+
+REPARTITION PAR CONTINENT
+-----------------------------
 - Africa : 34 pays
 - Asia : 30 pays
 - Europe : 19 pays
 - North America : 8 pays
 - Oceania : 2 pays
 - South America : 8 pays
+
+MOYENNES PAR CONTINENT
+--------------------------
+- Africa : 37705882 hab. (moyenne)
+- Asia : 149500000 hab. (moyenne)
+- Europe : 35578947 hab. (moyenne)
+- North America : 69750000 hab. (moyenne)
+- Oceania : 17500000 hab. (moyenne)
+- South America : 52250000 hab. (moyenne)
+
+LANGUES LES PLUS REPANDUES
+--------------------------------
+1. English : 24 pays
+2. French : 19 pays
+3. Arabic : 14 pays
+4. Spanish : 13 pays
+5. Portuguese : 4 pays
+
+PAYS MULTILINGUES (>= 3 langues) : 5 pays
+
+PERFORMANCE
+---------------
+- Temps de traitement : 2,105 secondes
+
+===============================================

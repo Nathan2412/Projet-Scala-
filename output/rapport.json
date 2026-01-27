@@ -1,56 +1,73 @@
 {
-  "sources": {
-    "data_clean": 101,
-    "data_dirty": 500,
-    "data_large": 12120,
-    "total_avant_agregation": 12721,
-    "total_apres_agregation": 101
+  "statistics": {
+    "total_countries_parsed": 12721,
+    "total_countries_valid": 101,
+    "duplicates_removed": 12620
   },
-  "statistiques": {
-    "population_totale": 7454000000,
-    "superficie_totale": 121029857,
-    "nombre_pays": 101
-  },
-  "top10_population": [
-    {"name": "China", "population": 1400000000},
-    {"name": "India", "population": 1380000000},
-    {"name": "United States", "population": 331000000},
-    {"name": "Indonesia", "population": 273000000},
-    {"name": "Pakistan", "population": 220000000},
-    {"name": "Brazil", "population": 212000000},
-    {"name": "Nigeria", "population": 206000000},
-    {"name": "Bangladesh", "population": 164000000},
-    {"name": "Russia", "population": 145000000},
-    {"name": "Mexico", "population": 128000000}
-  ],
-  "par_continent": [
-    {"continent": "Africa", "count": 34},
-    {"continent": "Asia", "count": 30},
-    {"continent": "Europe", "count": 19},
-    {"continent": "North America", "count": 8},
-    {"continent": "Oceania", "count": 2},
-    {"continent": "South America", "count": 8}
-  ],
-  "pays": [
-    {"name": "Haiti", "population": 11000000, "continent": "North America"},
+  "top_10_by_population": [
+    {"name": "China", "population": 1400000000, "continent": "Asia"},
     {"name": "India", "population": 1380000000, "continent": "Asia"},
-    {"name": "Israel", "population": 9000000, "continent": "Asia"},
-    {"name": "Austria", "population": 9000000, "continent": "Europe"},
-    {"name": "Zimbabwe", "population": 15000000, "continent": "Africa"},
-    {"name": "Burkina Faso", "population": 21000000, "continent": "Africa"},
-    {"name": "Iraq", "population": 40000000, "continent": "Asia"},
-    {"name": "South Sudan", "population": 11000000, "continent": "Africa"},
-    {"name": "Poland", "population": 38000000, "continent": "Europe"},
-    {"name": "Jordan", "population": 10000000, "continent": "Asia"},
-    {"name": "Philippines", "population": 109000000, "continent": "Asia"},
-    {"name": "Somalia", "population": 16000000, "continent": "Africa"},
-    {"name": "Madagascar", "population": 28000000, "continent": "Africa"},
-    {"name": "Algeria", "population": 43000000, "continent": "Africa"},
-    {"name": "Angola", "population": 32000000, "continent": "Africa"},
     {"name": "United States", "population": 331000000, "continent": "North America"},
-    {"name": "Greece", "population": 11000000, "continent": "Europe"},
-    {"name": "Venezuela", "population": 28000000, "continent": "South America"},
-    {"name": "Uzbekistan", "population": 34000000, "continent": "Asia"},
-    {"name": "Syria", "population": 17000000, "continent": "Asia"}
+    {"name": "Indonesia", "population": 273000000, "continent": "Asia"},
+    {"name": "Pakistan", "population": 220000000, "continent": "Asia"},
+    {"name": "Brazil", "population": 212000000, "continent": "South America"},
+    {"name": "Nigeria", "population": 206000000, "continent": "Africa"},
+    {"name": "Bangladesh", "population": 164000000, "continent": "Asia"},
+    {"name": "Russia", "population": 145000000, "continent": "Europe"},
+    {"name": "Mexico", "population": 128000000, "continent": "North America"}
+  ],
+  "top_10_by_area": [
+    {"name": "Russia", "area": 17098242, "continent": "Europe"},
+    {"name": "Canada", "area": 9984670, "continent": "North America"},
+    {"name": "United States", "area": 9833517, "continent": "North America"},
+    {"name": "China", "area": 9596961, "continent": "Asia"},
+    {"name": "Brazil", "area": 8515767, "continent": "South America"},
+    {"name": "Australia", "area": 7692024, "continent": "Oceania"},
+    {"name": "India", "area": 3287263, "continent": "Asia"},
+    {"name": "Argentina", "area": 2780400, "continent": "South America"},
+    {"name": "Kazakhstan", "area": 2724900, "continent": "Asia"},
+    {"name": "Algeria", "area": 2381741, "continent": "Africa"}
+  ],
+  "top_10_by_gdp": [
+    {"name": "United States", "gdp": 21433, "continent": "North America"},
+    {"name": "China", "gdp": 14343, "continent": "Asia"},
+    {"name": "Japan", "gdp": 5082, "continent": "Asia"},
+    {"name": "Germany", "gdp": 3861, "continent": "Europe"},
+    {"name": "India", "gdp": 2875, "continent": "Asia"},
+    {"name": "United Kingdom", "gdp": 2829, "continent": "Europe"},
+    {"name": "France", "gdp": 2716, "continent": "Europe"},
+    {"name": "Italy", "gdp": 2001, "continent": "Europe"},
+    {"name": "Brazil", "gdp": 1839, "continent": "South America"},
+    {"name": "Canada", "gdp": 1736, "continent": "North America"}
+  ],
+  "countries_by_continent": {
+    "Africa": 34,
+    "Asia": 30,
+    "Europe": 19,
+    "North America": 8,
+    "Oceania": 2,
+    "South America": 8
+  },
+  "average_population_by_continent": {
+    "Africa": 37705882,
+    "Asia": 149500000,
+    "Europe": 35578947,
+    "North America": 69750000,
+    "Oceania": 17500000,
+    "South America": 52250000
+  },
+  "most_common_languages": [
+    {"language": "English", "count": 24},
+    {"language": "French", "count": 19},
+    {"language": "Arabic", "count": 14},
+    {"language": "Spanish", "count": 13},
+    {"language": "Portuguese", "count": 4}
+  ],
+  "multilingual_countries": [
+    {"name": "Rwanda", "languages": ["Kinyarwanda", "French", "English"]},
+    {"name": "Belgium", "languages": ["Dutch", "French", "German"]},
+    {"name": "South Africa", "languages": ["Afrikaans", "English", "Zulu"]},
+    {"name": "Bolivia", "languages": ["Spanish", "Quechua", "Aymara"]},
+    {"name": "Switzerland", "languages": ["German", "French", "Italian", "Romansh"]}
   ]
 }
