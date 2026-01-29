@@ -1,56 +1,69 @@
 package countriesEtl
 
-@main def main(): Unit = {
+@main def main(): Unit =
   println("=== ANALYSE DES PAYS ===")
-  
   val debut = System.currentTimeMillis()
   val dataDir = "fp-scala-etl-project/1-countries"
-  
+
   val fichiers = List(
     s"$dataDir/data_clean.json",
     s"$dataDir/data_dirty.json",
     s"$dataDir/data_large.json"
   )
 
-  val resultat = for {
-    tousLesPays <- chargerTousFichiers(fichiers)
-    _ = println(s"\nEntrees totales : ${tousLesPays.size}")
+  // Traitement par fichier avec for-yield
+  val resultatsParFichier = for
+    chemin <- fichiers
+    nomSource = extraireNomFichier(chemin)
+    _ = println(s"\n--- Traitement de $nomSource ---")
+    
+    tousLesPays = chargerUnFichier(chemin)
+    entreesTotales = tousLesPays.size
+    _ = println(s"  Entrees : $entreesTotales")
     
     valides = nettoyerDonnees(tousLesPays)
-    objetsInvalides = tousLesPays.size - valides.size
-    _ = println(s"Objets invalides : $objetsInvalides")
+    objetsInvalides = entreesTotales - valides.size
     
     sansDoublons = enleverDoublons(valides)
     doublons = valides.size - sansDoublons.size
-    _ = println(s"Doublons : $doublons")
-    _ = println(s"Pays valides : ${sansDoublons.size}")
+    _ = println(s"  Valides : ${sansDoublons.size}")
     
-  } yield (sansDoublons, tousLesPays.size, objetsInvalides, doublons)
+    tempsMs = System.currentTimeMillis() - debut
+    _ = sauvegarderRapportFichier(nomSource, sansDoublons, entreesTotales, objetsInvalides, doublons, tempsMs)
+  yield (nomSource, tousLesPays, sansDoublons, entreesTotales, objetsInvalides, doublons)
 
-  resultat match {
-    case Right((pays, total, invalides, doublons)) =>
-      if (pays.isEmpty) {
-        println("\nAucune donnee a analyser")
-      } else {
-        afficherStatistiques(pays)
-        afficherTop5(pays)
-        analyserParContinent(pays)
-        
-        val tempsMs = System.currentTimeMillis() - debut
-        println(f"\nTemps : ${tempsMs / 1000.0}%.3f sec")
-        
-        sauvegarderRapport(pays, total, invalides, doublons, tempsMs)
-        println("\nAnalyse terminee")
-      }
-      
-    case Left(err) =>
-      println(s"\nErreur : $err")
-  }
-}
+  // Agregation globale
+  println("\n=== AGREGATION GLOBALE ===")
+  
+  val tousLesPaysGlobal = resultatsParFichier.flatMap(_._2)
+  val entreesTotalesGlobal = tousLesPaysGlobal.size
+  println(s"Entrees totales : $entreesTotalesGlobal")
 
-def chargerTousFichiers(fichiers: List[String]): Either[String, List[Country]] = {
-  val resultats = fichiers.map(chargerUnFichier)
-  val pays = resultats.flatten
-  if (pays.isEmpty) Left("Aucun fichier charge")
-  else Right(pays)
-}
+  val validesGlobal = nettoyerDonnees(tousLesPaysGlobal)
+  val objetsInvalidesGlobal = entreesTotalesGlobal - validesGlobal.size
+  println(s"Objets invalides : $objetsInvalidesGlobal")
+
+  val sansDoublonsGlobal = enleverDoublons(validesGlobal)
+  val doublonsGlobal = validesGlobal.size - sansDoublonsGlobal.size
+  println(s"Doublons : $doublonsGlobal")
+  println(s"Pays valides : ${sansDoublonsGlobal.size}")
+
+  // Affichage stats
+  if sansDoublonsGlobal.nonEmpty then
+    println("\n=== TOP 5 POPULATION ===")
+    topByPopulation(sansDoublonsGlobal, 5).zipWithIndex.foreach { case (pays, i) =>
+      println(s"${i+1}. ${pays.name} : ${pays.value} habitants")
+    }
+
+    println("\n=== PAR CONTINENT ===")
+    countByContinent(sansDoublonsGlobal).toSeq.sortBy(_._1).foreach { case (continent, nb) =>
+      println(s"$continent : $nb pays")
+    }
+
+  val tempsTotal = System.currentTimeMillis() - debut
+  println(f"\nTemps total : ${tempsTotal / 1000.0}%.3f sec")
+
+  // Rapport global
+  sauvegarderRapportGlobal(sansDoublonsGlobal, entreesTotalesGlobal, objetsInvalidesGlobal, doublonsGlobal, tempsTotal)
+
+  println("\n=== ANALYSE TERMINEE ===")

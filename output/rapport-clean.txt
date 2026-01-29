@@ -1,0 +1,36 @@
+===============================================
+     RAPPORT - clean
+===============================================
+
+STATISTIQUES DE PARSING
+---------------------------
+- Entrees totales       : 101
+- Objets invalides      : 0
+- Doublons              : 0
+- Nb valide             : 101
+
+STATISTIQUES
+---------------------------
+- Pays valides      : 101
+- Population totale : 7454000000
+- Superficie totale : 121029857 km2
+
+TOP 5 - POPULATION
+----------------------
+1. China : 1400000000 hab.
+2. India : 1380000000 hab.
+3. United States : 331000000 hab.
+4. Indonesia : 273000000 hab.
+5. Pakistan : 220000000 hab.
+
+PAR CONTINENT
+-----------------
+- Africa : 34 pays
+- Asia : 30 pays
+- Europe : 19 pays
+- North America : 8 pays
+- Oceania : 2 pays
+- South America : 8 pays
+
+Temps : 0,194 sec
+===============================================

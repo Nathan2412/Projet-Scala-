@@ -1,5 +1,5 @@
 ===============================================
-     RAPPORT D'ANALYSE - PAYS DU MONDE
+     RAPPORT GLOBAL - PAYS DU MONDE
 ===============================================
 
 STATISTIQUES DE PARSING
@@ -53,8 +53,8 @@ TOP 10 - PIB
 9. Brazil : 1839 milliards USD
 10. Canada : 1736 milliards USD
 
-REPARTITION PAR CONTINENT
------------------------------
+PAR CONTINENT
+-----------------
 - Africa : 34 pays
 - Asia : 30 pays
 - Europe : 19 pays
@@ -62,27 +62,15 @@ REPARTITION PAR CONTINENT
 - Oceania : 2 pays
 - South America : 8 pays
 
-MOYENNES PAR CONTINENT
---------------------------
-- Africa : 37705882 hab. (moyenne)
-- Asia : 149500000 hab. (moyenne)
-- Europe : 35578947 hab. (moyenne)
-- North America : 69750000 hab. (moyenne)
-- Oceania : 17500000 hab. (moyenne)
-- South America : 52250000 hab. (moyenne)
-
 LANGUES LES PLUS REPANDUES
---------------------------------
+-----------------------------
 1. English : 24 pays
 2. French : 19 pays
 3. Arabic : 14 pays
 4. Spanish : 13 pays
 5. Portuguese : 4 pays
 
-PAYS MULTILINGUES (>= 3 langues) : 5 pays
+PAYS MULTILINGUES (>= 3 langues) : 5
 
-PERFORMANCE
----------------
-- Temps de traitement : 0,521 secondes
-
+Temps total : 0,442 sec
 ===============================================

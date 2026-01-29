@@ -1,0 +1,28 @@
+{
+  "source": "dirty",
+  "parsing": {
+    "entrees_totales": 500,
+    "objets_invalides": 32,
+    "doublons": 367,
+    "nb_valide": 101
+  },
+  "statistics": {
+    "population_totale": 7454000000,
+    "superficie_totale": 117371397
+  },
+  "top_5_population": [
+    {"name": "China", "population": 1400000000},
+    {"name": "India", "population": 1380000000},
+    {"name": "United States", "population": 331000000},
+    {"name": "Indonesia", "population": 273000000},
+    {"name": "Pakistan", "population": 220000000}
+  ],
+  "par_continent": {
+    "Africa": 34,
+    "Asia": 30,
+    "Europe": 19,
+    "North America": 8,
+    "Oceania": 2,
+    "South America": 8
+  }
+}

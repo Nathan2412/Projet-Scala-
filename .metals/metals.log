@@ -5625,3 +5625,216 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
+2026.01.29 11:07:46 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1' for client Visual Studio Code 1.108.2.
+2026.01.29 11:07:46 INFO  Memory monitor started
+2026.01.29 11:07:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+janv. 29, 2026 11:11:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+janv. 29, 2026 11:11:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+janv. 29, 2026 11:11:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2026.01.29 11:13:25 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:13:25 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:13:45 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala
+2026.01.29 11:13:45 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:45 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:46 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:46 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:13:47 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:05 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:06 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:06 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:07 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:08 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:08 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:10 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:10 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:11 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:11 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:15 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:15 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:15 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:16 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:16 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:17 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:16 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:14:17 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:17 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:22 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:22 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:23 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:14:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:25 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:25 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:32 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:33 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:14:33 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:33 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:48 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:14:49 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:04 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala
+2026.01.29 11:15:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:04 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Parsing.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:13 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:15:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:14 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:14 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:14 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:15:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:14 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:14 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:15 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:15:15 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:15:15 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:19:42 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:19:42 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:19:42 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:19:42 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:03 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:03 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:20:03 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:03 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:13 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:20:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:13 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:17 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:17 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:20 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:21 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:24 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:20:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:28 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:28 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:30 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:30 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:30 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:30 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:32 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:32 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:20:32 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:32 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:59 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:59 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:20:59 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:20:59 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:01 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:01 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:21:01 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:01 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:54 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:21:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:21:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:02 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:02 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:25:02 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:02 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:12 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:25:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:12 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:24 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:25:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:24 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:46 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:25:46 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:46 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:46 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:50 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:50 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:53 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:55 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:55 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:56 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala
+2026.01.29 11:25:55 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:25:56 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:26:39 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:26:40 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:26:40 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:26:42 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:26:42 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:28:50 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:28:50 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:28:50 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:28:50 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:30:59 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:30:59 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:30:59 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:20 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:31:20 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:20 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:20 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:21 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:38 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:38 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:38 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala
+2026.01.29 11:31:38 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:41 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:49 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:31:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:05 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:05 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:23 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:32:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:23 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:27 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:32:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:28 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:28 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:49 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:49 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala
+2026.01.29 11:32:49 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:32:54 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:33:22 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Export.scala. Using presentation compiler with project's scala-library version: 3.3.7
+janv. 29, 2026 11:34:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2026.01.29 11:35:27 WARN  no build target for: C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala
+2026.01.29 11:35:27 INFO  no build target found for C:\Users\artsm\Documents\BDML_2\scala\Projet-Scala--1\src\main\scala\Country.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.29 11:55:43 INFO  Shutting down server
+2026.01.29 11:55:43 INFO  Memory monitor stopped
+2026.01.29 11:55:43 INFO  shutting down Metals
+2026.01.29 11:55:43 INFO  Exiting server

@@ -1,11 +1,15 @@
 {
-  "statistics": {
+  "parsing": {
     "entrees_totales": 12721,
     "objets_invalides": 32,
     "doublons": 12588,
     "nb_valide": 101
   },
-  "top_10_by_population": [
+  "statistics": {
+    "population_totale": 7454000000,
+    "superficie_totale": 121029857
+  },
+  "top_10_population": [
     {"name": "China", "population": 1400000000, "continent": "Asia"},
     {"name": "India", "population": 1380000000, "continent": "Asia"},
     {"name": "United States", "population": 331000000, "continent": "North America"},
@@ -17,7 +21,7 @@
     {"name": "Russia", "population": 145000000, "continent": "Europe"},
     {"name": "Mexico", "population": 128000000, "continent": "North America"}
   ],
-  "top_10_by_area": [
+  "top_10_area": [
     {"name": "Russia", "area": 17098242, "continent": "Europe"},
     {"name": "Canada", "area": 9984670, "continent": "North America"},
     {"name": "United States", "area": 9833517, "continent": "North America"},
@@ -29,7 +33,7 @@
     {"name": "Kazakhstan", "area": 2724900, "continent": "Asia"},
     {"name": "Algeria", "area": 2381741, "continent": "Africa"}
   ],
-  "top_10_by_gdp": [
+  "top_10_gdp": [
     {"name": "United States", "gdp": 21433, "continent": "North America"},
     {"name": "China", "gdp": 14343, "continent": "Asia"},
     {"name": "Japan", "gdp": 5082, "continent": "Asia"},
@@ -41,7 +45,7 @@
     {"name": "Brazil", "gdp": 1839, "continent": "South America"},
     {"name": "Canada", "gdp": 1736, "continent": "North America"}
   ],
-  "countries_by_continent": {
+  "par_continent": {
     "Africa": 34,
     "Asia": 30,
     "Europe": 19,
@@ -49,26 +53,11 @@
     "Oceania": 2,
     "South America": 8
   },
-  "average_population_by_continent": {
-    "Africa": 37705882,
-    "Asia": 149500000,
-    "Europe": 35578947,
-    "North America": 69750000,
-    "Oceania": 17500000,
-    "South America": 52250000
-  },
-  "most_common_languages": [
+  "langues_populaires": [
     {"language": "English", "count": 24},
     {"language": "French", "count": 19},
     {"language": "Arabic", "count": 14},
     {"language": "Spanish", "count": 13},
     {"language": "Portuguese", "count": 4}
-  ],
-  "multilingual_countries": [
-    {"name": "Rwanda", "languages": ["Kinyarwanda", "French", "English"]},
-    {"name": "Belgium", "languages": ["Dutch", "French", "German"]},
-    {"name": "South Africa", "languages": ["Afrikaans", "English", "Zulu"]},
-    {"name": "Bolivia", "languages": ["Spanish", "Quechua", "Aymara"]},
-    {"name": "Switzerland", "languages": ["German", "French", "Italian", "Romansh"]}
   ]
 }
