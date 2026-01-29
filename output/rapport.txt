@@ -4,9 +4,10 @@
 
 STATISTIQUES DE PARSING
 ---------------------------
-- Entrees totales lues      : 12721
-- Entrees valides           : 101
-- Doublons supprimes        : 12620
+- Entrees totales       : 12721
+- Objets invalides      : 32
+- Doublons              : 12588
+- Nb valide             : 101
 
 STATISTIQUES GLOBALES
 ---------------------------
@@ -82,6 +83,6 @@ PAYS MULTILINGUES (>= 3 langues) : 5 pays
 
 PERFORMANCE
 ---------------
-- Temps de traitement : 2,105 secondes
+- Temps de traitement : 0,521 secondes
 
 ===============================================

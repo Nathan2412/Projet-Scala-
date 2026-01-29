@@ -1,8 +1,9 @@
 {
   "statistics": {
-    "total_countries_parsed": 12721,
-    "total_countries_valid": 101,
-    "duplicates_removed": 12620
+    "entrees_totales": 12721,
+    "objets_invalides": 32,
+    "doublons": 12588,
+    "nb_valide": 101
   },
   "top_10_by_population": [
     {"name": "China", "population": 1400000000, "continent": "Asia"},
